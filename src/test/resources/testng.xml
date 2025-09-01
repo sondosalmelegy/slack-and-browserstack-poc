@@ -2,7 +2,7 @@
 <suite name="SimpleSuite">
     <test name="SimpleTest">
         <classes>
-            <class name="src/test/java/SimpleSeleniumTest.java"/>
+            <class name="SimpleSeleniumTest"/>
         </classes>
     </test>
 </suite>
