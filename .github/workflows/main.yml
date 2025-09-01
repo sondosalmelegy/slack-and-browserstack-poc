@@ -55,7 +55,7 @@ jobs:
       with:
         payload: |
           {
-            "channel": "U088FQ5FMFW",
+            "channel": "D08923J434Y",
             "text": "✅ BrowserStack tests finished! Check results."
           }
       env:
