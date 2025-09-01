@@ -1,3 +1,4 @@
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,10 +14,10 @@ import java.time.Duration;
 
 public class SimpleSeleniumTest extends BaseTests {
 
-    static ChromeDriver driver = new ChromeDriver();
-
     @BeforeClass
     public void setUp(){
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
         waitingTime();
         driver.get("https://www.booking.com/");
         waitingTime();
