@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de433147-d8f4-4607-80ec-b1f7d676f454" name="Changes" comment="final final final">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SimpleSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimpleSeleniumTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="de433147-d8f4-4607-80ec-b1f7d676f454" name="Changes" comment="final" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756733900801</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="final">
+      <option name="closed" value="true" />
+      <created>1756734410955</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1756734410955</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,10 +177,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit message" />
     <MESSAGE value="new commit message" />
-    <MESSAGE value="final" />
     <MESSAGE value="finally" />
     <MESSAGE value="final final" />
     <MESSAGE value="final final final" />
-    <option name="LAST_COMMIT_MESSAGE" value="final final final" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
 </project>

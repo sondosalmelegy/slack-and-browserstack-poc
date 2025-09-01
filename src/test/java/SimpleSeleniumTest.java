@@ -17,18 +17,29 @@ public class SimpleSeleniumTest extends BaseTests {
     @BeforeClass
     public void setUp(){
         WebDriverManager.chromedriver().setup();
+        System.out.println("Starting test...");
+
         driver = new ChromeDriver();
+        System.out.println("Starting test...");
+
         waitingTime();
         driver.get("https://www.booking.com/");
+        System.out.println("Starting test...");
+
         waitingTime();
         driver.manage().window().fullscreen();
+        System.out.println("Starting test...");
+
         waitingTime();
     }
 
     @Test
     public void testCases() {
         waitingTime();
-       String text = driver.findElement(By.cssSelector("span[class='b98ba2834c f77a73f1ba f0a26771c4']")).getText();
+        System.out.println("Starting test...");
+
+        String text = driver.findElement(By.cssSelector("span[class='b98ba2834c f77a73f1ba f0a26771c4']")).getText();
+        System.out.println("Starting test...");
 
         Assert.assertEquals(text,"Find your next stay","Passed Test Case!");
         System.out.println(text);
