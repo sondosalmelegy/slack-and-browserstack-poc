@@ -50,13 +50,14 @@ jobs:
       run: |
           mvn clean test
 
-    - name: Notify Slack
+    - name: Send Slack message
       uses: slackapi/slack-github-action@v1.26.0
       with:
         payload: |
           {
-            "channel": "D08923J434Y",
+            "channel": "D08923J434Y",  
             "text": "✅ BrowserStack tests finished! Check results."
           }
       env:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+
