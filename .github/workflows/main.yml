@@ -51,7 +51,7 @@ jobs:
           projectName: "Slack & BrowserStack POC"
           CUSTOM_TAG_1: "GitHubActions"
           CUSTOM_TAG_2: "RegressionSuite"
-          framework: junit4
+          framework: testng
           testObservability: true
           browserstackAutomation: true
       run: |
