@@ -7,3 +7,9 @@
 14:50:40.463 [AWT-EventQueue-0] INFO  c.b.launchers.LaunchMavenCommand - Integrate source: java:intellij:v1.1.6
 14:50:40.464 [AWT-EventQueue-0] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
 14:52:59.440 [sh] INFO  c.b.launchers.LaunchMavenCommand - Completed maven archetype command
+15:12:07.584 [ApplicationImpl pooled thread 38] INFO  c.b.l.BrowserStackRunExtension - testng
+15:12:07.584 [ApplicationImpl pooled thread 38] INFO  com.browserstack.utils.Helpers - true
+15:12:07.585 [ApplicationImpl pooled thread 38] INFO  com.browserstack.utils.Helpers - /Users/breadfast/.m2/repository/com/browserstack/browserstack-java-sdk/1.40.0/browserstack-java-sdk-1.40.0.jar
+15:12:07.586 [ApplicationImpl pooled thread 38] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/breadfast/.m2/repository/com/browserstack/browserstack-java-sdk/1.40.0/browserstack-java-sdk-1.40.0.jar
+15:12:07.586 [ApplicationImpl pooled thread 38] INFO  c.b.l.BrowserStackRunExtension - Replacing existing Browserstack SDK javaagent argline
+15:12:07.586 [ApplicationImpl pooled thread 38] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
