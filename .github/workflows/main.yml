@@ -53,13 +53,10 @@ jobs:
       run: |
           mvn clean test
 
-    - name: Notify Slack
-      uses: slackapi/slack-github-action@v1.26.0
-      with:
-        payload: |
-          {
-            "channel": "#general",
-            "text": "✅ BrowserStack tests finished! Check results."
-          }
-      env:
-        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+    - name: Notify Slack via webhook
+      run: |
+        curl -X POST -H 'Content-type: application/json' \
+        --data '{"text":"✅ BrowserStack tests finished! Check results."}' \
+        ${{ secrets.SLACK_WEBHOOK_URL }}
+
+
