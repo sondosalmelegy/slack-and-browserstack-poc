@@ -1,0 +1,93 @@
+14:55:15.483 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+14:55:15.486 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.35.0
+14:55:15.486 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+14:55:15.564 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=/Users/breadfast/IdeaProjects/githubactionspoc, localrepository=/Users/breadfast/.m2/repository}
+14:55:15.566 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+14:55:20.701 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+14:55:20.702 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 063dbe7b-4f47-4819-a732-0bfc6ad94c98
+14:55:20.702 [main] INFO  c.b.config.BrowserStackConfig - INFO
+14:55:20.706 [main] DEBUG com.browserstack.v2.SdkCliUtils - File /Users/breadfast/.browserstack already exist
+14:55:20.706 [main] DEBUG com.browserstack.v2.SdkCliUtils - getExistingCliPath: no binary found
+14:55:20.706 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: 
+14:55:21.417 [main] DEBUG com.browserstack.v2.SdkCliUtils - Need to update binary, current binary version: 0
+14:55:21.417 [main] DEBUG com.browserstack.v2.SdkCliUtils - Downloading SDK binary from: https://sdk-assets.browserstack.com/binary-macos-arm64-1.6.13.zip
+14:55:49.303 [main] DEBUG com.browserstack.v2.SdkCliUtils - Files successfully extracted to: /Users/breadfast/.browserstack/cli
+14:55:49.304 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: /Users/breadfast/.browserstack/cli/binary-macos-arm64
+14:55:49.305 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+14:55:49.305 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='/Users/breadfast/.browserstack/cli/binary-macos-arm64' 'sdk' 'tcp'
+14:55:50.536 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=c6c144a5-e39f-4a18-a717-2b4be6b0188e listenAddress=127.0.0.1:5400
+14:55:50.536 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process started
+14:55:50.536 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process connecting {port=5400, listen=127.0.0.1:5400, id=c6c144a5-e39f-4a18-a717-2b4be6b0188e}
+14:55:50.542 [main] DEBUG com.browserstack.v2.SdkCliUtils - File /Users/breadfast/.browserstack already exist
+14:56:12.842 [main] DEBUG com.browserstack.v2.SdkCLI - start-bin-session=bin_session_id: "c6c144a5-e39f-4a18-a717-2b4be6b0188e"
+config: "{\"userName\":\"sondosalmelegy_J97jpw\",\"accessKey\":\"s9eaXLwDiuMcyTmFpJgf\",\"projectName\":\"BrowserStack Sample\",\"buildName\":\"browserstack build\",\"buildIdentifier\":\"#1\",\"platforms\":[{\"os\":\"OS X\",\"osVersion\":\"Big Sur\",\"browserName\":\"Chrome\",\"browserVersion\":\"latest\"},{\"os\":\"Windows\",\"osVersion\":10,\"browserName\":\"Edge\",\"browserVersion\":\"latest\"},{\"deviceName\":\"Samsung Galaxy S22 Ultra\",\"browserName\":\"chrome\",\"osVersion\":12}],\"parallelsPerPlatform\":1,\"source\":\"java:intellij:v1.1.6\",\"browserstackLocal\":true,\"debug\":false,\"networkLogs\":false,\"consoleLogs\":\"errors\",\"testObservability\":true,\"accessibility\":false,\"browserstackAutomation\":true,\"selfHeal\":false,\"disableAutoCaptureLogs\":false,\"testhub\":true,\"testContextOptions\":{\"skipSessionStatus\":false,\"skipSessionName\":false},\"logDir\":\"/Users/breadfast/IdeaProjects/githubactionspoc/log\",\"browserStackLocalOptions\":{\"localIdentifier\":\"Sep_2_1455_Breadfasts-MacBook-Pro-4.local_pdgy\",\"key\":\"s9eaXLwDiuMcyTmFpJgf\",\"skipBinaryInitialisation\":false},\"testOrchestrationOptions\":{\"retryTestsOnFailure\":{},\"abortBuildOnFailure\":{}},\"apis\":{\"automate\":{\"hub\":\"https://hub.browserstack.com\",\"cdp\":\"https://cdp.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"appAutomate\":{\"hub\":\"https://hub.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"percy\":{\"api\":\"https://api.browserstack.com\"},\"turboScale\":{\"api\":\"https://grid.browserstack.com\"},\"accessibility\":{\"api\":\"https://accessibility.browserstack.com\"},\"appAccessibility\":{\"api\":\"https://app-accessibility.browserstack.com\"},\"observability\":{\"api\":\"https://collector-observability.browserstack.com\",\"upload\":\"https://upload-observability.browserstack.com\"},\"configServer\":{\"api\":\"https://sdk.browserstack.com\"},\"edsInstrumentation\":{\"api\":\"https://eds.browserstack.com\"},\"tcg\":{\"api\":\"https://tcg.browserstack.com\"}},\"hubUrl\":\"https://hub.browserstack.com/wd/hub\",\"proxySettings\":{}}"
+testhub {
+  jwt: "eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzU2ODI0OTUxIiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjEwMDY4MDAxLCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjAsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6OTk3NzM5MSwidGVhbV9pZCI6bnVsbCwidWRhY19hY2Nlc3MiOiJnbG9iYWwifQ.RlZE18lZLyGjrEUYo2iP1Xx-vOoEacbjzAUO_lGdS8s8jSMaKNJPk5b7okddTTF6-PEsQ45zZEBUQYejI7geZgpX0MJa8rBBr03onbESIUy3R2liXX0FQNi4jZweIT9o8tzSG6b-9TQYX3iuxnE1t9MJ2Gz94Tjjac08pPuqSvluU1dPB6DsHStbuMbd8s8hMPSaItAZZUvZnqkyG3IoSTvtCNHxiqwQw7DUyflVtQw6hSl1yWNnyGxeJ3ObESjRFlIDfKcoGcdAAILsqFz8eJ-qmd3vsMCmVfRcZ4-lPd7yq4TeVygyHyHgQUXghhoMSj46OECmjE_s_iPCw5k-yg"
+  build_hashed_id: "5kkjp17jtolry7wk0tbsqagftxdpjxh5danuwapa"
+  testhub_events: true
+}
+observability {
+  success: true
+}
+session_framework: "basedir=/Users/breadfast/IdeaProjects/githubactionspoc,localrepository=/Users/breadfast/.m2/repository"
+8: "selenium"
+
+14:56:12.849 [main] DEBUG com.browserstack.v2.SdkCLI - startChild: child-process connecting
+14:56:14.202 [main] DEBUG com.browserstack.v2.SdkCLI - connect-bin-session=bin_session_id: "c6c144a5-e39f-4a18-a717-2b4be6b0188e"
+config: "{\"userName\":\"sondosalmelegy_J97jpw\",\"accessKey\":\"s9eaXLwDiuMcyTmFpJgf\",\"projectName\":\"BrowserStack Sample\",\"buildName\":\"browserstack build\",\"buildIdentifier\":\"#1\",\"platforms\":[{\"os\":\"OS X\",\"osVersion\":\"Big Sur\",\"browserName\":\"Chrome\",\"browserVersion\":\"latest\"},{\"os\":\"Windows\",\"osVersion\":10,\"browserName\":\"Edge\",\"browserVersion\":\"latest\"},{\"deviceName\":\"Samsung Galaxy S22 Ultra\",\"browserName\":\"chrome\",\"osVersion\":12}],\"parallelsPerPlatform\":1,\"source\":\"java:intellij:v1.1.6\",\"browserstackLocal\":true,\"debug\":false,\"networkLogs\":false,\"consoleLogs\":\"errors\",\"testObservability\":true,\"accessibility\":false,\"browserstackAutomation\":true,\"selfHeal\":false,\"disableAutoCaptureLogs\":false,\"testhub\":true,\"testContextOptions\":{\"skipSessionStatus\":false,\"skipSessionName\":false},\"logDir\":\"/Users/breadfast/IdeaProjects/githubactionspoc/log\",\"browserStackLocalOptions\":{\"localIdentifier\":\"Sep_2_1455_Breadfasts-MacBook-Pro-4.local_pdgy\",\"key\":\"s9eaXLwDiuMcyTmFpJgf\",\"skipBinaryInitialisation\":false},\"testOrchestrationOptions\":{\"retryTestsOnFailure\":{},\"abortBuildOnFailure\":{}},\"apis\":{\"automate\":{\"hub\":\"https://hub.browserstack.com\",\"cdp\":\"https://cdp.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"appAutomate\":{\"hub\":\"https://hub.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"percy\":{\"api\":\"https://api.browserstack.com\"},\"turboScale\":{\"api\":\"https://grid.browserstack.com\"},\"accessibility\":{\"api\":\"https://accessibility.browserstack.com\"},\"appAccessibility\":{\"api\":\"https://app-accessibility.browserstack.com\"},\"observability\":{\"api\":\"https://collector-observability.browserstack.com\",\"upload\":\"https://upload-observability.browserstack.com\"},\"configServer\":{\"api\":\"https://sdk.browserstack.com\"},\"edsInstrumentation\":{\"api\":\"https://eds.browserstack.com\"},\"tcg\":{\"api\":\"https://tcg.browserstack.com\"}},\"hubUrl\":\"https://hub-euw.browserstack.com/wd/hub\",\"proxySettings\":{}}"
+testhub {
+  jwt: "eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzU2ODI0OTUxIiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjEwMDY4MDAxLCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjAsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6OTk3NzM5MSwidGVhbV9pZCI6bnVsbCwidWRhY19hY2Nlc3MiOiJnbG9iYWwifQ.RlZE18lZLyGjrEUYo2iP1Xx-vOoEacbjzAUO_lGdS8s8jSMaKNJPk5b7okddTTF6-PEsQ45zZEBUQYejI7geZgpX0MJa8rBBr03onbESIUy3R2liXX0FQNi4jZweIT9o8tzSG6b-9TQYX3iuxnE1t9MJ2Gz94Tjjac08pPuqSvluU1dPB6DsHStbuMbd8s8hMPSaItAZZUvZnqkyG3IoSTvtCNHxiqwQw7DUyflVtQw6hSl1yWNnyGxeJ3ObESjRFlIDfKcoGcdAAILsqFz8eJ-qmd3vsMCmVfRcZ4-lPd7yq4TeVygyHyHgQUXghhoMSj46OECmjE_s_iPCw5k-yg"
+  build_hashed_id: "5kkjp17jtolry7wk0tbsqagftxdpjxh5danuwapa"
+  testhub_events: true
+}
+observability {
+  success: true
+}
+session_framework: "selenium"
+test_orchestration {
+  retry_tests_on_failure {
+  }
+  abort_build_on_failure {
+  }
+}
+
+14:56:14.205 [main] INFO  com.browserstack.v2.SdkCLI - loadBinResponse: Loading modules as per LoadBinResponse=bin_session_id: "c6c144a5-e39f-4a18-a717-2b4be6b0188e"
+config: "{\"userName\":\"sondosalmelegy_J97jpw\",\"accessKey\":\"s9eaXLwDiuMcyTmFpJgf\",\"projectName\":\"BrowserStack Sample\",\"buildName\":\"browserstack build\",\"buildIdentifier\":\"#1\",\"platforms\":[{\"os\":\"OS X\",\"osVersion\":\"Big Sur\",\"browserName\":\"Chrome\",\"browserVersion\":\"latest\"},{\"os\":\"Windows\",\"osVersion\":10,\"browserName\":\"Edge\",\"browserVersion\":\"latest\"},{\"deviceName\":\"Samsung Galaxy S22 Ultra\",\"browserName\":\"chrome\",\"osVersion\":12}],\"parallelsPerPlatform\":1,\"source\":\"java:intellij:v1.1.6\",\"browserstackLocal\":true,\"debug\":false,\"networkLogs\":false,\"consoleLogs\":\"errors\",\"testObservability\":true,\"accessibility\":false,\"browserstackAutomation\":true,\"selfHeal\":false,\"disableAutoCaptureLogs\":false,\"testhub\":true,\"testContextOptions\":{\"skipSessionStatus\":false,\"skipSessionName\":false},\"logDir\":\"/Users/breadfast/IdeaProjects/githubactionspoc/log\",\"browserStackLocalOptions\":{\"localIdentifier\":\"Sep_2_1455_Breadfasts-MacBook-Pro-4.local_pdgy\",\"key\":\"s9eaXLwDiuMcyTmFpJgf\",\"skipBinaryInitialisation\":false},\"testOrchestrationOptions\":{\"retryTestsOnFailure\":{},\"abortBuildOnFailure\":{}},\"apis\":{\"automate\":{\"hub\":\"https://hub.browserstack.com\",\"cdp\":\"https://cdp.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"appAutomate\":{\"hub\":\"https://hub.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"percy\":{\"api\":\"https://api.browserstack.com\"},\"turboScale\":{\"api\":\"https://grid.browserstack.com\"},\"accessibility\":{\"api\":\"https://accessibility.browserstack.com\"},\"appAccessibility\":{\"api\":\"https://app-accessibility.browserstack.com\"},\"observability\":{\"api\":\"https://collector-observability.browserstack.com\",\"upload\":\"https://upload-observability.browserstack.com\"},\"configServer\":{\"api\":\"https://sdk.browserstack.com\"},\"edsInstrumentation\":{\"api\":\"https://eds.browserstack.com\"},\"tcg\":{\"api\":\"https://tcg.browserstack.com\"}},\"hubUrl\":\"https://hub-euw.browserstack.com/wd/hub\",\"proxySettings\":{}}"
+testhub {
+  jwt: "eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzU2ODI0OTUxIiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjEwMDY4MDAxLCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjAsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6OTk3NzM5MSwidGVhbV9pZCI6bnVsbCwidWRhY19hY2Nlc3MiOiJnbG9iYWwifQ.RlZE18lZLyGjrEUYo2iP1Xx-vOoEacbjzAUO_lGdS8s8jSMaKNJPk5b7okddTTF6-PEsQ45zZEBUQYejI7geZgpX0MJa8rBBr03onbESIUy3R2liXX0FQNi4jZweIT9o8tzSG6b-9TQYX3iuxnE1t9MJ2Gz94Tjjac08pPuqSvluU1dPB6DsHStbuMbd8s8hMPSaItAZZUvZnqkyG3IoSTvtCNHxiqwQw7DUyflVtQw6hSl1yWNnyGxeJ3ObESjRFlIDfKcoGcdAAILsqFz8eJ-qmd3vsMCmVfRcZ4-lPd7yq4TeVygyHyHgQUXghhoMSj46OECmjE_s_iPCw5k-yg"
+  build_hashed_id: "5kkjp17jtolry7wk0tbsqagftxdpjxh5danuwapa"
+  testhub_events: true
+}
+observability {
+  success: true
+}
+session_framework: "selenium"
+test_orchestration {
+  retry_tests_on_failure {
+  }
+  abort_build_on_failure {
+  }
+}
+
+14:56:14.212 [main] DEBUG com.browserstack.v2.SdkCLI - loadBinResponse: configured module=WebdriverModule & c6c144a5-e39f-4a18-a717-2b4be6b0188e
+14:56:14.213 [main] DEBUG com.browserstack.v2.SdkCLI - loadBinResponse: configured module=ObservabilityModule & c6c144a5-e39f-4a18-a717-2b4be6b0188e
+14:56:14.213 [main] DEBUG com.browserstack.v2.SdkCLI - loadBinResponse: configured module=TestHubModule & c6c144a5-e39f-4a18-a717-2b4be6b0188e
+14:56:14.220 [main] INFO  com.browserstack.v2.SdkCLI - startChild: child-process connected
+14:56:14.225 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+14:56:17.561 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+14:56:17.572 [main] INFO  com.browserstack.testOps.Listener - onStart: CLI is active
+14:56:17.884 [main] DEBUG com.browserstack.v2.SdkCLI - Setting up testng framework
+14:56:17.884 [main] DEBUG com.browserstack.v2.SdkCLI - Setting up selenium framework
+14:56:17.990 [Thread-4] INFO  com.browserstack.testOps.Listener - onComplete: CLI is active
+14:56:17.992 [Thread-4] INFO  com.browserstack.v2.SdkCLI - stop: cli stop triggered
+14:56:23.567 [Thread-4] DEBUG com.browserstack.v2.SdkCLI - stop-bin-session=success: true
+
+14:56:23.580 [Thread-4] INFO  com.browserstack.v2.SdkCLI - stop: shutting down CLI
+14:56:24.074 [Thread-4] DEBUG c.browserstack.utils.UtilityMethods - Browserstack yml path passed - /Users/breadfast/IdeaProjects/githubactionspoc/browserstack.yml
+14:56:25.627 [Thread-4] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+14:56:25.629 [Thread-4] INFO  c.browserstack.utils.UtilityMethods - Visit https://automation.browserstack.com/builds/5kkjp17jtolry7wk0tbsqagftxdpjxh5danuwapa to view build report, insights, and many more debugging information all at one place!
+14:56:25.630 [Thread-4] INFO  c.b.config.BrowserStackConfig - INFO
+14:56:25.630 [Thread-4] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: 
+14:56:25.630 [Thread-4] INFO  c.b.config.BrowserStackConfig - INFO
+14:56:25.639 [Thread-4] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 063dbe7b-4f47-4819-a732-0bfc6ad94c98, testhub id: 5kkjp17jtolry7wk0tbsqagftxdpjxh5danuwapa
+14:56:25.639 [Thread-4] INFO  c.b.config.BrowserStackConfig - INFO
