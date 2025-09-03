@@ -1,43 +1,44 @@
 # =============================
 # Set BrowserStack Credentials
 # =============================
-userName: sondosalmelegy_J97jpw
-accessKey: s9eaXLwDiuMcyTmFpJgf
+userName: "sondosalmelegy_J97jpw"
+accessKey: "s9eaXLwDiuMcyTmFpJgf"
 
 # ======================
 # BrowserStack Reporting
 # ======================
 projectName: "Slack & BrowserStack POC"
 buildName: "Breadfast Automation Build - ${{ github.run_number }}"
-buildIdentifier: "#${BUILD_NUMBER}" # Generates incremental counter
+buildIdentifier: "#${{ github.run_number }}" # Generates incremental counter
 
 # Optional custom tags
-CUSTOM_TAG_1: "GitHubActions"
-CUSTOM_TAG_2: "POC"
-CUSTOM_TAG_3: "RegressionSuite"
+customTags:
+  - "GitHubActions"
+  - "POC"
+  - "RegressionSuite"
 
 # =======================================
 # Platforms (Browsers / Devices to test)
 # =======================================
 platforms:
-  - os: OS X
-    osVersion: Big Sur
-    browserName: Chrome
-    browserVersion: latest
-  - os: Windows
-    osVersion: 10
-    browserName: Edge
-    browserVersion: latest
-  - deviceName: Samsung Galaxy S22 Ultra
-    browserName: chrome
-    osVersion: 12.0
+  - os: "OS X"
+    osVersion: "Big Sur"
+    browserName: "Chrome"
+    browserVersion: "latest"
+  - os: "Windows"
+    osVersion: "10"
+    browserName: "Edge"
+    browserVersion: "latest"
+  - deviceName: "Samsung Galaxy S22 Ultra"
+    osVersion: "12.0"
+    browserName: "Chrome"
 
 # =======================
 # Parallels per Platform
 # =======================
 parallelsPerPlatform: 1
 
-source: java:intellij:v1.1.6
+source: "java:intellij:v1.1.6"
 
 # ==========================================
 # BrowserStack Local
@@ -49,4 +50,4 @@ browserstackLocal: true
 # ===================
 debug: false
 networkLogs: false
-consoleLogs: errors
+consoleLogs: "errors"
