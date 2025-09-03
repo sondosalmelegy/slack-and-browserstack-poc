@@ -9,20 +9,28 @@ import org.testng.annotations.Test;
 
 
 public class SimpleSeleniumTest extends BaseTests {
+    ChromeOptions options;
+
 
     @BeforeClass
     public void setUp() {
-        WebDriverManager.chromedriver().setup();
-        waitingTime();
 
-        ChromeOptions options = new ChromeOptions();
+        waitingTime();
+        options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--ignore-certificate-errors");
         options.addArguments("--disable-popup-blocking");
         options.addArguments("--disable-extensions");
+        options.setAcceptInsecureCerts(true);
+        options.addArguments("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) " +
+                "AppleWebKit/537.36 (KHTML, like Gecko) " +
+                "Chrome/118.0.5993.90 Safari/537.36");
+
 
         waitingTime();
+        WebDriverManager.chromedriver().setup();
 
+        waitingTime();
         driver = new ChromeDriver(options);
         waitingTime();
 
