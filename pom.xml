@@ -12,14 +12,13 @@
     </properties>
 
     <dependencies>
-        <!-- Selenium -->
+
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.35.0</version>
         </dependency>
 
-        <!-- TestNG -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -27,33 +26,29 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Logging CDI helper -->
-        <dependency>
-            <groupId>net.reini</groupId>
-            <artifactId>slf4-cdi</artifactId>
-            <version>1.0</version>
-        </dependency>
-
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>5.6.3</version>
-            <scope>test</scope>
+            <version>6.3.1</version>
         </dependency>
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>5.10.3</version>
+            <version>5.13.4</version>
             <scope>test</scope>
         </dependency>
 
-
-        <!-- https://mvnrepository.com/artifact/com.browserstack/browserstack-java-sdk -->
         <dependency>
             <groupId>com.browserstack</groupId>
             <artifactId>browserstack-java-sdk</artifactId>
             <version>1.40.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.5.7</version>
         </dependency>
 
 
@@ -61,11 +56,15 @@
 
     <build>
         <plugins>
-            <!-- Surefire for running TestNG tests -->
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId><configuration><argLine>-javaagent:"${com.browserstack:browserstack-java-sdk:jar}"</argLine></configuration>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.3</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
+                    </suiteXmlFiles><argLine>-javaagent:"${com.browserstack:browserstack-java-sdk:jar}"</argLine>
+                </configuration>
             </plugin>
             <plugin>
         <artifactId>maven-dependency-plugin</artifactId>

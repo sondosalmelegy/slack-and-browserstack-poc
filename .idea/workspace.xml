@@ -4,7 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de433147-d8f4-4607-80ec-b1f7d676f454" name="Changes" comment="final" />
+    <list default="true" id="de433147-d8f4-4607-80ec-b1f7d676f454" name="Changes" comment="final">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserstack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/browserstack.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/browserstack-javaagent.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/browserstack-javaagent.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/sdk-cli.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/sdk-cli.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SimpleSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimpleSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-09-02T14-55-12_812-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SimpleSuite/SimpleTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SimpleSuite/SimpleTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SimpleSeleniumTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SimpleSeleniumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SimpleSeleniumTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,30 +75,32 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;BROWSERSTACK_PLUGIN_ENABLED&quot;: &quot;true&quot;,
-    &quot;Maven.newPocProject [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.SimpleSeleniumTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SimpleSeleniumTest.testCases.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "BROWSERSTACK_PLUGIN_ENABLED": "true",
+    "Maven.newPocProject [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.SimpleSeleniumTest (1).executor": "Run",
+    "TestNG.SimpleSeleniumTest.executor": "Run",
+    "TestNG.SimpleSeleniumTest.testCases (1).executor": "Run",
+    "TestNG.SimpleSeleniumTest.testCases.executor": "Run",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SimpleSeleniumTest">
-    <configuration name="SimpleSeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SimpleSeleniumTest (1)">
+    <configuration name="SimpleSeleniumTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="newPocProject" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SimpleSeleniumTest" />
@@ -79,7 +111,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleSeleniumTest.testCases" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleSeleniumTest" type="TestNG" temporary="true" nameIsGenerated="true" printAsyncStackTraceForExceptions="false">
+      <module name="newPocProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleSeleniumTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="$MAVEN_REPOSITORY$" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleSeleniumTest.testCases (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="newPocProject" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SimpleSeleniumTest" />
@@ -91,10 +145,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleSeleniumTest.testCases" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="newPocProject" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleSeleniumTest" />
+      <option name="METHOD_NAME" value="testCases" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea/Users/breadfast/.m2/repository" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.SimpleSeleniumTest.testCases (1)" />
+      <item itemvalue="TestNG.SimpleSeleniumTest (1)" />
+      <item itemvalue="TestNG.SimpleSeleniumTest" />
+      <item itemvalue="TestNG.SimpleSeleniumTest.testCases" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SimpleSeleniumTest" />
+        <item itemvalue="TestNG.SimpleSeleniumTest (1)" />
+        <item itemvalue="TestNG.SimpleSeleniumTest.testCases (1)" />
         <item itemvalue="TestNG.SimpleSeleniumTest.testCases" />
+        <item itemvalue="TestNG.SimpleSeleniumTest" />
       </list>
     </recent_temporary>
   </component>
