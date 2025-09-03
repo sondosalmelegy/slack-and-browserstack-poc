@@ -1,6 +1,7 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -10,10 +11,20 @@ import org.testng.annotations.Test;
 public class SimpleSeleniumTest extends BaseTests {
 
     @BeforeClass
-    public void setUp(){
+    public void setUp() {
         WebDriverManager.chromedriver().setup();
+        waitingTime();
 
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        options.addArguments("--ignore-certificate-errors");
+        options.addArguments("--disable-popup-blocking");
+        options.addArguments("--disable-extensions");
+
+        waitingTime();
+
+        driver = new ChromeDriver(options);
+        waitingTime();
 
         waitingTime();
         driver.get("https://www.booking.com/");
@@ -23,6 +34,7 @@ public class SimpleSeleniumTest extends BaseTests {
 
         waitingTime();
     }
+
 
     @Test
     public void testCases() {

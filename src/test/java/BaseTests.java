@@ -6,6 +6,6 @@ import java.time.Duration;
 public class BaseTests {
     static ChromeDriver driver = new ChromeDriver();
     public static void waitingTime() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(120));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(500));
     }
 }
