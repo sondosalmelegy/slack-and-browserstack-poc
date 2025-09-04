@@ -1,42 +1,38 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 
 public class SimpleSeleniumTest extends BaseTests {
 
-    @BeforeClass
+
+    @BeforeTest
     public void setUp() {
-
-        WebDriverManager.chromedriver().setup();
-
-        waitingTime();
-        driver = new ChromeDriver();
-        waitingTime();
+        initializeDriver();
         driver.get("https://www.booking.com/");
-        waitingTime();
-        driver.manage().window().fullscreen();
-        waitingTime();
     }
+
 
 
     @Test
     public void testCases() {
-        waitingTime();
-        String text = driver.findElement(By.cssSelector("span[class='b98ba2834c f77a73f1ba f0a26771c4']")).getText();
-        waitingTime();
+
+        WebElement element = waitForElement(By.xpath("//span[text()='Find your next stay']"),20);
+        String text = element.getText();
         Assert.assertEquals(text,"Find your next stay","Passed Test Case!");
         System.out.println(text);
     }
 
-    @AfterClass
+    @AfterTest
     public void teardown() {
-        driver.quit();
+        if (driver != null) {
+            driver.quit();
+        }
     }
 }
 

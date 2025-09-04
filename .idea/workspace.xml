@@ -9,9 +9,9 @@
       <change beforePath="$PROJECT_DIR$/log/browserstack-javaagent.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/browserstack-javaagent.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/sdk-cli.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/sdk-cli.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SimpleSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimpleSeleniumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2025-09-03T18-53-31_816-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/SimpleSeleniumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SimpleSeleniumTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -266,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756815520379</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="final">
+      <option name="closed" value="true" />
+      <created>1756917202636</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1756917202636</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
