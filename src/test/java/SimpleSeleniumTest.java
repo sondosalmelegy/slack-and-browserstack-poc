@@ -22,9 +22,12 @@ public class SimpleSeleniumTest extends BaseTests {
     @Test
     public void testCases() {
 
-        WebElement element = waitForElement(By.xpath("//span[text()='Find your next stay']"),20);
+        WebElement element = waitForElement(By.xpath("//*[contains(text(),'Find your next stay')]"),20);
         String text = element.getText();
         Assert.assertEquals(text,"Find your next stay","Passed Test Case!");
+
+
+
         System.out.println(text);
     }
 
