@@ -20217,3 +20217,721 @@ hashed_id: "57a2a1f461aedfbaae6e7b65687933d2b0b760da"
 15:20:16.184 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
 15:20:16.188 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: adb08e55-0348-449d-8d0d-cf83e0b8af30, testhub id: remzkefdq4ye4xvpawin3edcfh7njeypydzqjlej
 15:20:16.188 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:35:09.344 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+15:35:09.365 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.35.0
+15:35:09.365 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:35:09.485 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:35:09.488 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:35:09.492 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+15:35:09.493 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+15:35:09.791 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+15:35:09.793 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 1964a584-d602-4369-bbba-6255a87d5e05
+15:35:09.793 [main] INFO  c.b.config.BrowserStackConfig - INFO
+15:35:09.802 [main] DEBUG com.browserstack.v2.SdkCliUtils - File /Users/breadfast/.browserstack already exist
+15:35:09.805 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: /Users/breadfast/.browserstack/cli/binary-macos-arm64
+15:35:11.799 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: /Users/breadfast/.browserstack/cli/binary-macos-arm64
+15:35:11.800 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+15:35:11.800 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='/Users/breadfast/.browserstack/cli/binary-macos-arm64' 'sdk' 'tcp'
+15:35:12.108 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=9d460c7c-eac1-45d0-b8d8-1e2555b4006f listenAddress=127.0.0.1:5400
+15:35:12.108 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process started
+15:35:12.109 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process connecting {port=5400, listen=127.0.0.1:5400, id=9d460c7c-eac1-45d0-b8d8-1e2555b4006f}
+15:35:12.116 [main] DEBUG com.browserstack.v2.SdkCliUtils - File /Users/breadfast/.browserstack already exist
+15:35:13.294 [main] DEBUG com.browserstack.v2.SdkCLI - start-bin-session=bin_session_id: "9d460c7c-eac1-45d0-b8d8-1e2555b4006f"
+config: "{\"userName\":\"sondosalmelegy_J97jpw\",\"accessKey\":\"s9eaXLwDiuMcyTmFpJgf\",\"buildName\":\"Notifying Browserstack and slack\",\"projectName\":\"My First Github Actions POC\",\"CUSTOM_TAG_1\":\"You can set a custom Build Tag here\",\"framework\":\"testng\",\"testObservability\":true,\"accessibility\":false,\"browserstackLocal\":false,\"browserstackAutomation\":true,\"selfHeal\":false,\"disableAutoCaptureLogs\":false,\"testhub\":true,\"platforms\":[],\"testContextOptions\":{\"skipSessionStatus\":false,\"skipSessionName\":false},\"logDir\":\"/Users/breadfast/IdeaProjects/githubactionspoc/log\",\"buildIdentifier\":\"#4\",\"browserStackLocalOptions\":{\"key\":\"s9eaXLwDiuMcyTmFpJgf\",\"skipBinaryInitialisation\":false},\"testOrchestrationOptions\":{\"retryTestsOnFailure\":{},\"abortBuildOnFailure\":{}},\"apis\":{\"automate\":{\"hub\":\"https://hub.browserstack.com\",\"cdp\":\"https://cdp.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"appAutomate\":{\"hub\":\"https://hub.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"percy\":{\"api\":\"https://api.browserstack.com\"},\"turboScale\":{\"api\":\"https://grid.browserstack.com\"},\"accessibility\":{\"api\":\"https://accessibility.browserstack.com\"},\"appAccessibility\":{\"api\":\"https://app-accessibility.browserstack.com\"},\"observability\":{\"api\":\"https://collector-observability.browserstack.com\",\"upload\":\"https://upload-observability.browserstack.com\"},\"configServer\":{\"api\":\"https://sdk.browserstack.com\"},\"edsInstrumentation\":{\"api\":\"https://eds.browserstack.com\"},\"tcg\":{\"api\":\"https://tcg.browserstack.com\"}},\"hubUrl\":\"https://hub.browserstack.com/wd/hub\"}"
+testhub {
+  jwt: "eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzU3MDg2NTEzIiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjEwMDY4MDAxLCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjAsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6OTk3NzM5MSwidGVhbV9pZCI6bnVsbCwidWRhY19hY2Nlc3MiOiJnbG9iYWwifQ.Bw08bbbZGBMvXOl7f8pfgrZzZF6Qjw_rkyIQlgVKYzFhq21Kk9Cn2vGxT2WYvTedEjcaHoNR7_L-irwmJXdZjUHx2mCwM-uJdj3bsfPlVKd85F2ee0AsCHJYWcdepQ8VfcYYGgX0fycOb_7PU1Co8PhwQqqjNrOHKWqiUmXYHbc6D3NuARIdRhjZJizCwqxCv2BzJk6_QRblH_uuff5unDr_oLGepO3KvCIEG3USUx5d313m0cYcT_OBpf7bn7I3okJb9IPu5VIfT5c9JtCl0PSSc27htcc7r-PzBRTWvF_f-qW4lPQPbq98H4n6bLhIasx7yucUxDoLRzIXughf6w"
+  build_hashed_id: "c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3"
+  testhub_events: true
+}
+observability {
+  success: true
+}
+session_framework: ""
+8: "selenium"
+
+15:35:13.307 [main] DEBUG com.browserstack.v2.SdkCLI - startChild: child-process connecting
+15:35:14.459 [main] DEBUG com.browserstack.v2.SdkCLI - connect-bin-session=bin_session_id: "9d460c7c-eac1-45d0-b8d8-1e2555b4006f"
+config: "{\"userName\":\"sondosalmelegy_J97jpw\",\"accessKey\":\"s9eaXLwDiuMcyTmFpJgf\",\"buildName\":\"Notifying Browserstack and slack\",\"projectName\":\"My First Github Actions POC\",\"CUSTOM_TAG_1\":\"You can set a custom Build Tag here\",\"framework\":\"testng\",\"testObservability\":true,\"accessibility\":false,\"browserstackLocal\":false,\"browserstackAutomation\":true,\"selfHeal\":false,\"disableAutoCaptureLogs\":false,\"testhub\":true,\"platforms\":[],\"testContextOptions\":{\"skipSessionStatus\":false,\"skipSessionName\":false},\"logDir\":\"/Users/breadfast/IdeaProjects/githubactionspoc/log\",\"buildIdentifier\":\"#4\",\"browserStackLocalOptions\":{\"key\":\"s9eaXLwDiuMcyTmFpJgf\",\"skipBinaryInitialisation\":false},\"testOrchestrationOptions\":{\"retryTestsOnFailure\":{},\"abortBuildOnFailure\":{}},\"apis\":{\"automate\":{\"hub\":\"https://hub.browserstack.com\",\"cdp\":\"https://cdp.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"appAutomate\":{\"hub\":\"https://hub.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"percy\":{\"api\":\"https://api.browserstack.com\"},\"turboScale\":{\"api\":\"https://grid.browserstack.com\"},\"accessibility\":{\"api\":\"https://accessibility.browserstack.com\"},\"appAccessibility\":{\"api\":\"https://app-accessibility.browserstack.com\"},\"observability\":{\"api\":\"https://collector-observability.browserstack.com\",\"upload\":\"https://upload-observability.browserstack.com\"},\"configServer\":{\"api\":\"https://sdk.browserstack.com\"},\"edsInstrumentation\":{\"api\":\"https://eds.browserstack.com\"},\"tcg\":{\"api\":\"https://tcg.browserstack.com\"}},\"hubUrl\":\"https://hub-euw.browserstack.com/wd/hub\"}"
+testhub {
+  jwt: "eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzU3MDg2NTEzIiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjEwMDY4MDAxLCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjAsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6OTk3NzM5MSwidGVhbV9pZCI6bnVsbCwidWRhY19hY2Nlc3MiOiJnbG9iYWwifQ.Bw08bbbZGBMvXOl7f8pfgrZzZF6Qjw_rkyIQlgVKYzFhq21Kk9Cn2vGxT2WYvTedEjcaHoNR7_L-irwmJXdZjUHx2mCwM-uJdj3bsfPlVKd85F2ee0AsCHJYWcdepQ8VfcYYGgX0fycOb_7PU1Co8PhwQqqjNrOHKWqiUmXYHbc6D3NuARIdRhjZJizCwqxCv2BzJk6_QRblH_uuff5unDr_oLGepO3KvCIEG3USUx5d313m0cYcT_OBpf7bn7I3okJb9IPu5VIfT5c9JtCl0PSSc27htcc7r-PzBRTWvF_f-qW4lPQPbq98H4n6bLhIasx7yucUxDoLRzIXughf6w"
+  build_hashed_id: "c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3"
+  testhub_events: true
+}
+observability {
+  success: true
+}
+session_framework: "selenium"
+test_orchestration {
+  retry_tests_on_failure {
+  }
+  abort_build_on_failure {
+  }
+}
+
+15:35:14.464 [main] INFO  com.browserstack.v2.SdkCLI - loadBinResponse: Loading modules as per LoadBinResponse=bin_session_id: "9d460c7c-eac1-45d0-b8d8-1e2555b4006f"
+config: "{\"userName\":\"sondosalmelegy_J97jpw\",\"accessKey\":\"s9eaXLwDiuMcyTmFpJgf\",\"buildName\":\"Notifying Browserstack and slack\",\"projectName\":\"My First Github Actions POC\",\"CUSTOM_TAG_1\":\"You can set a custom Build Tag here\",\"framework\":\"testng\",\"testObservability\":true,\"accessibility\":false,\"browserstackLocal\":false,\"browserstackAutomation\":true,\"selfHeal\":false,\"disableAutoCaptureLogs\":false,\"testhub\":true,\"platforms\":[],\"testContextOptions\":{\"skipSessionStatus\":false,\"skipSessionName\":false},\"logDir\":\"/Users/breadfast/IdeaProjects/githubactionspoc/log\",\"buildIdentifier\":\"#4\",\"browserStackLocalOptions\":{\"key\":\"s9eaXLwDiuMcyTmFpJgf\",\"skipBinaryInitialisation\":false},\"testOrchestrationOptions\":{\"retryTestsOnFailure\":{},\"abortBuildOnFailure\":{}},\"apis\":{\"automate\":{\"hub\":\"https://hub.browserstack.com\",\"cdp\":\"https://cdp.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"appAutomate\":{\"hub\":\"https://hub.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"percy\":{\"api\":\"https://api.browserstack.com\"},\"turboScale\":{\"api\":\"https://grid.browserstack.com\"},\"accessibility\":{\"api\":\"https://accessibility.browserstack.com\"},\"appAccessibility\":{\"api\":\"https://app-accessibility.browserstack.com\"},\"observability\":{\"api\":\"https://collector-observability.browserstack.com\",\"upload\":\"https://upload-observability.browserstack.com\"},\"configServer\":{\"api\":\"https://sdk.browserstack.com\"},\"edsInstrumentation\":{\"api\":\"https://eds.browserstack.com\"},\"tcg\":{\"api\":\"https://tcg.browserstack.com\"}},\"hubUrl\":\"https://hub-euw.browserstack.com/wd/hub\"}"
+testhub {
+  jwt: "eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzU3MDg2NTEzIiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjEwMDY4MDAxLCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjAsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6OTk3NzM5MSwidGVhbV9pZCI6bnVsbCwidWRhY19hY2Nlc3MiOiJnbG9iYWwifQ.Bw08bbbZGBMvXOl7f8pfgrZzZF6Qjw_rkyIQlgVKYzFhq21Kk9Cn2vGxT2WYvTedEjcaHoNR7_L-irwmJXdZjUHx2mCwM-uJdj3bsfPlVKd85F2ee0AsCHJYWcdepQ8VfcYYGgX0fycOb_7PU1Co8PhwQqqjNrOHKWqiUmXYHbc6D3NuARIdRhjZJizCwqxCv2BzJk6_QRblH_uuff5unDr_oLGepO3KvCIEG3USUx5d313m0cYcT_OBpf7bn7I3okJb9IPu5VIfT5c9JtCl0PSSc27htcc7r-PzBRTWvF_f-qW4lPQPbq98H4n6bLhIasx7yucUxDoLRzIXughf6w"
+  build_hashed_id: "c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3"
+  testhub_events: true
+}
+observability {
+  success: true
+}
+session_framework: "selenium"
+test_orchestration {
+  retry_tests_on_failure {
+  }
+  abort_build_on_failure {
+  }
+}
+
+15:35:14.474 [main] DEBUG com.browserstack.v2.SdkCLI - loadBinResponse: configured module=WebdriverModule & 9d460c7c-eac1-45d0-b8d8-1e2555b4006f
+15:35:14.474 [main] DEBUG com.browserstack.v2.SdkCLI - loadBinResponse: configured module=ObservabilityModule & 9d460c7c-eac1-45d0-b8d8-1e2555b4006f
+15:35:14.474 [main] DEBUG com.browserstack.v2.SdkCLI - loadBinResponse: configured module=TestHubModule & 9d460c7c-eac1-45d0-b8d8-1e2555b4006f
+15:35:14.483 [main] INFO  com.browserstack.v2.SdkCLI - startChild: child-process connected
+15:35:14.490 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+15:35:18.009 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:35:18.018 [main] INFO  com.browserstack.testOps.Listener - onStart: CLI is active
+15:35:18.235 [main] DEBUG com.browserstack.v2.SdkCLI - Setting up testng framework
+15:35:18.237 [main] DEBUG com.browserstack.v2.SdkCLI - Setting up selenium framework
+15:35:18.304 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.367 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.368 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.369 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.369 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.369 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.370 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.370 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.370 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.370 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.371 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.375 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.375 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.375 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.375 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.375 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.376 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.376 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.376 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.376 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.376 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.377 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.377 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.377 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.377 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.377 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.379 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:35:18.389 [main] INFO  c.b.v2.framework.TestNgFramework - trackTestNgTest: saved instance contextId=662174653 target=githubactionspoc@null instances=[662174653]
+15:35:18.389 [main] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=662174653
+15:35:18.389 [main] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=662174653
+15:35:18.395 [githubactionspoc@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_TEST hookState=HookState.PRE instance=662174653
+15:35:18.396 [githubactionspoc@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_TEST hookState=HookState.PRE instance=662174653
+15:35:18.396 [githubactionspoc@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+15:35:18.427 [githubactionspoc@null] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=STARTED method=SimpleSeleniumTest.setUp()[pri:0, instance:SimpleSeleniumTest@1716e8c5] output={null}]
+15:35:18.428 [githubactionspoc@null] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = BEFORE_TEST & hook = {hook_name=setUp, hook_result=pending, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:35:18.427849, hook_id=c4c46bd8-1973-45a9-8ac3-fd8912e083b8, hook_logs=[], key=BEFORE_TEST, custom_metadata={}, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}  and args = [[TestResult name=setUp status=STARTED method=SimpleSeleniumTest.setUp()[pri:0, instance:SimpleSeleniumTest@1716e8c5] output={null}], SimpleSeleniumTest.setUp()[pri:0, instance:SimpleSeleniumTest@1716e8c5]]
+15:35:18.428 [githubactionspoc@null] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_TEST.HookState.PRE , hooks started={BEFORE_TEST=[{hook_name=setUp, hook_result=pending, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:35:18.427849, hook_id=c4c46bd8-1973-45a9-8ac3-fd8912e083b8, hook_logs=[], key=BEFORE_TEST, custom_metadata={}, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}]} , hooks finished={BEFORE_TEST=[]}
+15:35:18.438 [githubactionspoc@null] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@67064bdc, response=success: true
+
+15:35:18.805 [setUp@null] INFO  c.b.v2.framework.SeleniumFramework - trackSeleniumTest: saved instance contextId=1506021467 target=3049:3 instances=[1506021467]
+15:35:18.805 [setUp@null] INFO  c.b.v2.module.WebdriverModule - onBeforeDriverCreate: event=com.browserstack.v2.eventBus.Event@25f723b0
+15:35:18.809 [setUp@null] INFO  c.b.v2.module.WebdriverModule - onBeforeDriverCreate: event=com.browserstack.v2.eventBus.Event@25f723b0
+15:35:18.829 [setUp@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@76ececd
+15:35:18.829 [setUp@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@76ececd
+15:35:23.294 [setUp@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@45545e7a
+15:35:23.294 [setUp@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@45545e7a
+15:35:23.294 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:35:23.294 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:35:23.295 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:35:23.295 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:35:23.295 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:35:23.298 [setUp@null] INFO  c.b.v2.framework.SeleniumFramework - trackSeleniumTest: saved instance contextId=1506021467 target=3049:3 instances=[1506021467]
+15:35:23.299 [setUp@null] INFO  c.b.v2.module.WebdriverModule - onDriverCreated: event=com.browserstack.v2.eventBus.Event@7e62cfa3
+15:35:23.299 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:23.299 [setUp@null] INFO  c.b.v2.module.WebdriverModule - Found session id=f59b18494052d460d4a5bcc235502fa9b7795583 for instance=com.browserstack.v2.instance.AutomationFrameworkInstance@2703d91
+15:35:23.300 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:23.300 [setUp@null] INFO  c.b.v2.module.WebdriverModule - Driver added successfully to automationFramework
+15:35:23.303 [setUp@null] ERROR c.b.v2.module.WebdriverModule - Error AutomationFrameworkStart to start driver with error java.lang.ClassCastException: class java.lang.Object cannot be cast to class browserstack.sdk.v1.Sdk$AutomationFrameworkStartResponse (java.lang.Object is in module java.base of loader 'bootstrap'; browserstack.sdk.v1.Sdk$AutomationFrameworkStartResponse is in unnamed module of loader 'app')
+	at com.browserstack.v2.module.WebdriverModule.startDriver(Unknown Source)
+	at com.browserstack.v2.module.WebdriverModule.onDriverCreated(Unknown Source)
+	at com.browserstack.v2.eventBus.EventDispatcher.notifyModuleObservers(Unknown Source)
+	at com.browserstack.v2.framework.AutomationFramework.runHooks(Unknown Source)
+	at com.browserstack.v2.framework.SeleniumFramework.trackEvent(Unknown Source)
+	at com.browserstack.selenium.SeleniumHandler.persistDriverInstance(Unknown Source)
+	at com.browserstack.selenium.SeleniumHandler.afterDriverInit(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:184)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:99)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+	at BaseTests.initializeDriver(BaseTests.java:21)
+	at SimpleSeleniumTest.setUp(SimpleSeleniumTest.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+	at org.testng.TestRunner.run(TestRunner.java:612)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+15:35:23.303 [setUp@null] INFO  c.b.v2.module.WebdriverModule - onDriverCreated: event=com.browserstack.v2.eventBus.Event@7e62cfa3
+15:35:23.303 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:23.303 [setUp@null] INFO  c.b.v2.module.WebdriverModule - Found session id=f59b18494052d460d4a5bcc235502fa9b7795583 for instance=com.browserstack.v2.instance.AutomationFrameworkInstance@2703d91
+15:35:23.303 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:23.303 [setUp@null] INFO  c.b.v2.module.WebdriverModule - Driver added successfully to automationFramework
+15:35:23.303 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:23.315 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:23.315 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:23.315 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:23.316 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:23.328 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:23.329 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:23.329 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:23.329 [setUp@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@626c19cf
+15:35:23.329 [setUp@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@626c19cf
+15:35:23.330 [setUp@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@54a2d96e
+15:35:23.330 [setUp@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@54a2d96e
+15:35:23.514 [setUp@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@173f1614
+15:35:23.514 [setUp@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@173f1614
+15:35:23.514 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:35:23.514 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:35:23.514 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:35:23.514 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:35:23.514 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:35:23.518 [setUp@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@7645f03e
+15:35:23.518 [setUp@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@7645f03e
+15:35:23.518 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:35:23.518 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:35:23.518 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:35:23.518 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:35:23.518 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:35:23.521 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:23.522 [setUp@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@7a6ea47d
+15:35:23.522 [setUp@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@7a6ea47d
+15:35:28.316 [setUp@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@287ae90c
+15:35:28.316 [setUp@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@287ae90c
+15:35:28.317 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:35:28.317 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:35:28.317 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:35:28.317 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:35:28.317 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:35:28.325 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_TEST hookState=HookState.POST instance=662174653
+15:35:28.325 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_TEST hookState=HookState.POST instance=662174653
+15:35:28.325 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+15:35:28.346 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=SUCCESS method=SimpleSeleniumTest.setUp()[pri:0, instance:SimpleSeleniumTest@1716e8c5] output={null}]
+15:35:28.346 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=setUp, hook_result=pending, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:35:18.427849, hook_id=c4c46bd8-1973-45a9-8ac3-fd8912e083b8, hook_logs=[], key=BEFORE_TEST, custom_metadata={}, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}] and args = [[TestResult name=setUp status=SUCCESS method=SimpleSeleniumTest.setUp()[pri:0, instance:SimpleSeleniumTest@1716e8c5] output={null}], SimpleSeleniumTest.setUp()[pri:0, instance:SimpleSeleniumTest@1716e8c5]]
+15:35:28.346 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/HookLevel
+15:35:28.347 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+15:35:28.347 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = /Users/breadfast/.browserstack/UploadedAttachments-3/HookLevel/BuildLevelHookEvent and abs path = /Users/breadfast/.browserstack/UploadedAttachments-3/HookLevel/BuildLevelHookEvent 
+15:35:28.347 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/HookLevel/BuildLevelHookEvent
+15:35:28.347 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+15:35:28.347 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+15:35:28.347 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_TEST.HookState.POST , hooks started={BEFORE_TEST=[]} , hooks finished={BEFORE_TEST=[{hook_name=setUp, hook_result=passed, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:35:18.427849, hook_id=c4c46bd8-1973-45a9-8ac3-fd8912e083b8, hook_logs=[], logs=[], key=BEFORE_TEST, custom_metadata={}, event_ended_at=2025-09-05T15:35:28.346914, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}]}
+15:35:28.352 [setUp@null] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@9ab310b, response=success: true
+
+15:35:28.369 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=662174653
+15:35:28.383 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded initial test data to instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=662174653
+15:35:28.383 [setUp@null] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@28e0e464
+15:35:28.383 [setUp@null] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@28e0e464
+15:35:28.383 [setUp@null] INFO  c.b.v2.module.TestHubModule - onAfterTest: event={com.browserstack.v2.eventBus.Event@28e0e464}
+15:35:28.396 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:28.401 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:28.406 [setUp@null] INFO  c.b.v2.module.TestHubModule - sendTestSessionEvent: event=com.browserstack.v2.eventBus.Event@28e0e464, response=success: true
+
+15:35:28.410 [setUp@null] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@28e0e464, response=success: true
+
+15:35:28.412 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - onBeforeTest: event={instance=com.browserstack.v2.instance.TestFrameworkInstance@10244722, testFrameworkState=TestFrameworkState.TEST, testInstance=com.browserstack.v2.instance.TestFrameworkInstance@10244722, autoInstance=[com.browserstack.v2.instance.AutomationFrameworkInstance@2703d91], hookState=HookState.PRE}
+15:35:28.412 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - performTestReportingSync: Performing TEST REPORTING AND ANALYTICS Sync
+15:35:28.412 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:28.413 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:28.507 [testCases@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:28.508 [testCases@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@6436e181
+15:35:28.508 [testCases@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@6436e181
+15:35:28.830 [Forwarding findElement on session f59b18494052d460d4a5bcc235502fa9b7795583 to remote] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:28.831 [testCases@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@e29f4f6
+15:35:28.831 [testCases@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@e29f4f6
+15:35:28.831 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:35:28.831 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:35:28.832 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:35:28.832 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:35:28.832 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:35:28.836 [testCases@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:28.836 [testCases@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:28.836 [testCases@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:28.836 [testCases@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:28.837 [testCases@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@1a538ed8
+15:35:28.837 [testCases@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@1a538ed8
+15:35:29.289 [testCases@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@41f4039e
+15:35:29.289 [testCases@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@41f4039e
+15:35:29.289 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:35:29.289 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:35:29.289 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:35:29.289 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:35:29.290 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:35:29.294 [testCases@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@603cabc4
+15:35:29.294 [testCases@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@603cabc4
+15:35:29.433 [testCases@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@5a7df831
+15:35:29.433 [testCases@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@5a7df831
+15:35:29.433 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:35:29.433 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:35:29.433 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:35:29.433 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:35:29.434 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:35:29.442 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG hookState=HookState.PRE instance=662174653
+15:35:29.442 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load log entries
+15:35:29.458 [testCases@null] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@21de60a7, response=success: true
+
+15:35:29.459 [testCases@null] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@21de60a7
+15:35:29.463 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.PRE instance=662174653
+15:35:29.463 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.POST instance=662174653
+15:35:29.463 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load test results
+15:35:29.464 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.POST instance=662174653
+15:35:29.464 [testCases@null] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@18dd5ed3
+15:35:29.464 [testCases@null] INFO  c.b.utils.SeleniumMethodUtils - Session Name ID status marking: f59b18494052d460d4a5bcc235502fa9b7795583
+15:35:29.967 [testCases@null] ERROR c.b.utils.SeleniumMethodUtils - Done for sessionid f59b18494052d460d4a5bcc235502fa9b7795583
+15:35:29.967 [testCases@null] INFO  c.b.utils.SeleniumMethodUtils - Session ID status marking: f59b18494052d460d4a5bcc235502fa9b7795583
+15:35:30.585 [testCases@null] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@18dd5ed3
+15:35:30.586 [testCases@null] INFO  c.b.utils.SeleniumMethodUtils - Session Name ID status marking: f59b18494052d460d4a5bcc235502fa9b7795583
+15:35:31.109 [testCases@null] ERROR c.b.utils.SeleniumMethodUtils - Done for sessionid f59b18494052d460d4a5bcc235502fa9b7795583
+15:35:31.109 [testCases@null] INFO  c.b.utils.SeleniumMethodUtils - Session ID status marking: f59b18494052d460d4a5bcc235502fa9b7795583
+15:35:31.832 [testCases@null] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@18dd5ed3, response=success: true
+
+15:35:31.840 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_TEST hookState=HookState.PRE instance=662174653
+15:35:31.840 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+15:35:31.856 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=teardown status=STARTED method=SimpleSeleniumTest.teardown()[pri:0, instance:SimpleSeleniumTest@1716e8c5] output={null}]
+15:35:31.856 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = AFTER_TEST & hook = {hook_name=teardown, hook_result=pending, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:35:31.856847, hook_id=b5c9d744-a6c8-42de-b1d5-81d3164b0c00, hook_logs=[], key=AFTER_TEST, custom_metadata={}, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}  and args = [[TestResult name=teardown status=STARTED method=SimpleSeleniumTest.teardown()[pri:0, instance:SimpleSeleniumTest@1716e8c5] output={null}], SimpleSeleniumTest.teardown()[pri:0, instance:SimpleSeleniumTest@1716e8c5]]
+15:35:31.857 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_TEST.HookState.PRE , hooks started={BEFORE_TEST=[], AFTER_TEST=[{hook_name=teardown, hook_result=pending, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:35:31.856847, hook_id=b5c9d744-a6c8-42de-b1d5-81d3164b0c00, hook_logs=[], key=AFTER_TEST, custom_metadata={}, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}]} , hooks finished={BEFORE_TEST=[{hook_name=setUp, hook_result=passed, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:35:18.427849, hook_id=c4c46bd8-1973-45a9-8ac3-fd8912e083b8, hook_logs=[], logs=[], key=BEFORE_TEST, custom_metadata={}, event_ended_at=2025-09-05T15:35:28.346914, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}], AFTER_TEST=[]}
+15:35:31.861 [testCases@null] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@1a1ccaaf, response=success: true
+
+15:35:31.863 [teardown@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:31.864 [teardown@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:31.864 [teardown@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:31.865 [teardown@null] INFO  c.b.v2.module.WebdriverModule - onDriverQuit: event=com.browserstack.v2.eventBus.Event@747835f5
+15:35:31.867 [teardown@null] INFO  c.b.v2.module.WebdriverModule - onDriverQuit: event=com.browserstack.v2.eventBus.Event@747835f5
+15:35:31.867 [teardown@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:31.876 [teardown@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:31.878 [teardown@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:31.879 [teardown@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:31.879 [teardown@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@22825e1e
+15:35:31.879 [teardown@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@22825e1e
+15:35:31.879 [teardown@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@335f5c69
+15:35:31.879 [teardown@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@335f5c69
+15:35:33.201 [teardown@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@6dca31eb
+15:35:33.201 [teardown@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@6dca31eb
+15:35:33.201 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:35:33.201 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:35:33.201 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:35:33.201 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:35:33.202 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:35:33.207 [teardown@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4b56b031
+15:35:33.207 [teardown@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4b56b031
+15:35:33.207 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:35:33.207 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:35:33.207 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:35:33.207 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:35:33.207 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:35:33.211 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_TEST hookState=HookState.POST instance=662174653
+15:35:33.211 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+15:35:33.227 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=teardown status=SUCCESS method=SimpleSeleniumTest.teardown()[pri:0, instance:SimpleSeleniumTest@1716e8c5] output={null}]
+15:35:33.228 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=teardown, hook_result=pending, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:35:31.856847, hook_id=b5c9d744-a6c8-42de-b1d5-81d3164b0c00, hook_logs=[], key=AFTER_TEST, custom_metadata={}, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}] and args = [[TestResult name=teardown status=SUCCESS method=SimpleSeleniumTest.teardown()[pri:0, instance:SimpleSeleniumTest@1716e8c5] output={null}], SimpleSeleniumTest.teardown()[pri:0, instance:SimpleSeleniumTest@1716e8c5]]
+15:35:33.228 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/HookLevel
+15:35:33.228 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+15:35:33.228 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = /Users/breadfast/.browserstack/UploadedAttachments-3/HookLevel/BuildLevelHookEvent and abs path = /Users/breadfast/.browserstack/UploadedAttachments-3/HookLevel/BuildLevelHookEvent 
+15:35:33.228 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/HookLevel/BuildLevelHookEvent
+15:35:33.228 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+15:35:33.228 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+15:35:33.228 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_TEST.HookState.POST , hooks started={BEFORE_TEST=[], AFTER_TEST=[]} , hooks finished={BEFORE_TEST=[{hook_name=setUp, hook_result=passed, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:35:18.427849, hook_id=c4c46bd8-1973-45a9-8ac3-fd8912e083b8, hook_logs=[], logs=[], key=BEFORE_TEST, custom_metadata={}, event_ended_at=2025-09-05T15:35:28.346914, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}], AFTER_TEST=[{hook_name=teardown, hook_result=passed, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:35:31.856847, hook_id=b5c9d744-a6c8-42de-b1d5-81d3164b0c00, hook_logs=[], logs=[], key=AFTER_TEST, custom_metadata={}, event_ended_at=2025-09-05T15:35:33.228241, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}]}
+15:35:33.233 [teardown@null] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@733e6df7, response=success: true
+
+15:35:33.653 [teardown@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:35:33.667 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG hookState=HookState.PRE instance=662174653
+15:35:33.668 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load log entries
+15:35:33.672 [teardown@null] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@6e243175, response=success: true
+
+15:35:33.673 [teardown@null] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@6e243175
+15:35:33.678 [Thread-0] INFO  com.browserstack.testOps.Listener - onComplete: CLI is active
+15:35:33.681 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli stop triggered
+15:35:38.269 [Thread-0] DEBUG com.browserstack.v2.SdkCLI - stop-bin-session=success: true
+automate_buildlink: "https://automate.browserstack.com/dashboard/v2/builds/cfc4d9df4c0b10368c86bc6389ba227415f39f2b"
+hashed_id: "cfc4d9df4c0b10368c86bc6389ba227415f39f2b"
+
+15:35:38.281 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: shutting down CLI
+15:35:40.239 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - Visit https://automation.browserstack.com/builds/c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3 to view build report, insights, and many more debugging information all at one place!
+15:35:40.239 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:35:40.239 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/cfc4d9df4c0b10368c86bc6389ba227415f39f2b
+15:35:40.239 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:35:40.243 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 1964a584-d602-4369-bbba-6255a87d5e05, testhub id: c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3
+15:35:40.243 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:36:01.109 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+15:36:01.128 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.35.0
+15:36:01.129 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+15:36:01.224 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+15:36:01.226 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+15:36:01.229 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testReporting as specified in your browserstack.yml to true
+15:36:01.230 [main] INFO  c.b.config.BrowserStackConfig - Few SDK features were not activated as platforms object was not defined
+15:36:01.495 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+15:36:01.496 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 14326b73-9d8f-49b7-b5ce-0e48238bdd0f
+15:36:01.496 [main] INFO  c.b.config.BrowserStackConfig - INFO
+15:36:01.503 [main] DEBUG com.browserstack.v2.SdkCliUtils - File /Users/breadfast/.browserstack already exist
+15:36:01.505 [main] DEBUG com.browserstack.v2.SdkCliUtils - Current CLI Path Found: /Users/breadfast/.browserstack/cli/binary-macos-arm64
+15:36:02.251 [main] DEBUG com.browserstack.v2.SdkCliUtils - Resolved binary path: /Users/breadfast/.browserstack/cli/binary-macos-arm64
+15:36:02.252 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process starting
+15:36:02.253 [main] INFO  com.browserstack.v2.SdkCLI - spawning command='/Users/breadfast/.browserstack/cli/binary-macos-arm64' 'sdk' 'tcp'
+15:36:02.537 [ForkJoinPool.commonPool-worker-1] INFO  com.browserstack.v2.SdkCLI - loadCLIParams: start binSessionId=dcf13c45-c062-4131-8e51-6ecdd5b5e45a listenAddress=127.0.0.1:5400
+15:36:02.537 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process started
+15:36:02.537 [main] DEBUG com.browserstack.v2.SdkCLI - startMain: main-process connecting {port=5400, listen=127.0.0.1:5400, id=dcf13c45-c062-4131-8e51-6ecdd5b5e45a}
+15:36:02.544 [main] DEBUG com.browserstack.v2.SdkCliUtils - File /Users/breadfast/.browserstack already exist
+15:36:03.321 [main] DEBUG com.browserstack.v2.SdkCLI - start-bin-session=bin_session_id: "dcf13c45-c062-4131-8e51-6ecdd5b5e45a"
+config: "{\"userName\":\"sondosalmelegy_J97jpw\",\"accessKey\":\"s9eaXLwDiuMcyTmFpJgf\",\"buildName\":\"Notifying Browserstack and slack\",\"projectName\":\"My First Github Actions POC\",\"CUSTOM_TAG_1\":\"You can set a custom Build Tag here\",\"framework\":\"testng\",\"testObservability\":true,\"accessibility\":false,\"browserstackLocal\":false,\"browserstackAutomation\":true,\"selfHeal\":false,\"disableAutoCaptureLogs\":false,\"testhub\":true,\"platforms\":[],\"testContextOptions\":{\"skipSessionStatus\":false,\"skipSessionName\":false},\"logDir\":\"/Users/breadfast/IdeaProjects/githubactionspoc/log\",\"buildIdentifier\":\"#5\",\"browserStackLocalOptions\":{\"key\":\"s9eaXLwDiuMcyTmFpJgf\",\"skipBinaryInitialisation\":false},\"testOrchestrationOptions\":{\"retryTestsOnFailure\":{},\"abortBuildOnFailure\":{}},\"apis\":{\"automate\":{\"hub\":\"https://hub.browserstack.com\",\"cdp\":\"https://cdp.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"appAutomate\":{\"hub\":\"https://hub.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"percy\":{\"api\":\"https://api.browserstack.com\"},\"turboScale\":{\"api\":\"https://grid.browserstack.com\"},\"accessibility\":{\"api\":\"https://accessibility.browserstack.com\"},\"appAccessibility\":{\"api\":\"https://app-accessibility.browserstack.com\"},\"observability\":{\"api\":\"https://collector-observability.browserstack.com\",\"upload\":\"https://upload-observability.browserstack.com\"},\"configServer\":{\"api\":\"https://sdk.browserstack.com\"},\"edsInstrumentation\":{\"api\":\"https://eds.browserstack.com\"},\"tcg\":{\"api\":\"https://tcg.browserstack.com\"}},\"hubUrl\":\"https://hub.browserstack.com/wd/hub\"}"
+testhub {
+  jwt: "eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzU3MDg2NTYzIiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjEwMDY4MDAxLCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjAsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6OTk3NzM5MSwidGVhbV9pZCI6bnVsbCwidWRhY19hY2Nlc3MiOiJnbG9iYWwifQ.ubBO19wQQTIflP7J5BUShe9SqOT-d9J1qE_cttsjoEQmD8OcRBeY-Vko_SnD3ti080NDRi_vV8RR-NzzdlzMLptfYRREUPaiqe_xZGFRsBoCY-zt_BqKVb0lEIYk90ZSNxTAwXXNPNFrrX_n3BHYOqxpcItAeE5MFZw4HbXzQGx8PVDvUntbJ9D0nlXXM0sdR8RcYnp7R3hhL1CXbd3fAXao0XhKWoRWVuZPeOxPa9hLRslxJG31EDACExozRxKLkdQXa8f4mRbottxyTJGPFd-oGnnwfthO20qEGsjp3UUL_7LtYH4UlmBvBKszsqyxH4mCTb-pDDex7Y6Lnezxog"
+  build_hashed_id: "o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1"
+  testhub_events: true
+}
+observability {
+  success: true
+}
+session_framework: ""
+8: "selenium"
+
+15:36:03.333 [main] DEBUG com.browserstack.v2.SdkCLI - startChild: child-process connecting
+15:36:04.470 [main] DEBUG com.browserstack.v2.SdkCLI - connect-bin-session=bin_session_id: "dcf13c45-c062-4131-8e51-6ecdd5b5e45a"
+config: "{\"userName\":\"sondosalmelegy_J97jpw\",\"accessKey\":\"s9eaXLwDiuMcyTmFpJgf\",\"buildName\":\"Notifying Browserstack and slack\",\"projectName\":\"My First Github Actions POC\",\"CUSTOM_TAG_1\":\"You can set a custom Build Tag here\",\"framework\":\"testng\",\"testObservability\":true,\"accessibility\":false,\"browserstackLocal\":false,\"browserstackAutomation\":true,\"selfHeal\":false,\"disableAutoCaptureLogs\":false,\"testhub\":true,\"platforms\":[],\"testContextOptions\":{\"skipSessionStatus\":false,\"skipSessionName\":false},\"logDir\":\"/Users/breadfast/IdeaProjects/githubactionspoc/log\",\"buildIdentifier\":\"#5\",\"browserStackLocalOptions\":{\"key\":\"s9eaXLwDiuMcyTmFpJgf\",\"skipBinaryInitialisation\":false},\"testOrchestrationOptions\":{\"retryTestsOnFailure\":{},\"abortBuildOnFailure\":{}},\"apis\":{\"automate\":{\"hub\":\"https://hub.browserstack.com\",\"cdp\":\"https://cdp.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"appAutomate\":{\"hub\":\"https://hub.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"percy\":{\"api\":\"https://api.browserstack.com\"},\"turboScale\":{\"api\":\"https://grid.browserstack.com\"},\"accessibility\":{\"api\":\"https://accessibility.browserstack.com\"},\"appAccessibility\":{\"api\":\"https://app-accessibility.browserstack.com\"},\"observability\":{\"api\":\"https://collector-observability.browserstack.com\",\"upload\":\"https://upload-observability.browserstack.com\"},\"configServer\":{\"api\":\"https://sdk.browserstack.com\"},\"edsInstrumentation\":{\"api\":\"https://eds.browserstack.com\"},\"tcg\":{\"api\":\"https://tcg.browserstack.com\"}},\"hubUrl\":\"https://hub-euw.browserstack.com/wd/hub\"}"
+testhub {
+  jwt: "eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzU3MDg2NTYzIiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjEwMDY4MDAxLCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjAsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6OTk3NzM5MSwidGVhbV9pZCI6bnVsbCwidWRhY19hY2Nlc3MiOiJnbG9iYWwifQ.ubBO19wQQTIflP7J5BUShe9SqOT-d9J1qE_cttsjoEQmD8OcRBeY-Vko_SnD3ti080NDRi_vV8RR-NzzdlzMLptfYRREUPaiqe_xZGFRsBoCY-zt_BqKVb0lEIYk90ZSNxTAwXXNPNFrrX_n3BHYOqxpcItAeE5MFZw4HbXzQGx8PVDvUntbJ9D0nlXXM0sdR8RcYnp7R3hhL1CXbd3fAXao0XhKWoRWVuZPeOxPa9hLRslxJG31EDACExozRxKLkdQXa8f4mRbottxyTJGPFd-oGnnwfthO20qEGsjp3UUL_7LtYH4UlmBvBKszsqyxH4mCTb-pDDex7Y6Lnezxog"
+  build_hashed_id: "o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1"
+  testhub_events: true
+}
+observability {
+  success: true
+}
+session_framework: "selenium"
+test_orchestration {
+  retry_tests_on_failure {
+  }
+  abort_build_on_failure {
+  }
+}
+
+15:36:04.476 [main] INFO  com.browserstack.v2.SdkCLI - loadBinResponse: Loading modules as per LoadBinResponse=bin_session_id: "dcf13c45-c062-4131-8e51-6ecdd5b5e45a"
+config: "{\"userName\":\"sondosalmelegy_J97jpw\",\"accessKey\":\"s9eaXLwDiuMcyTmFpJgf\",\"buildName\":\"Notifying Browserstack and slack\",\"projectName\":\"My First Github Actions POC\",\"CUSTOM_TAG_1\":\"You can set a custom Build Tag here\",\"framework\":\"testng\",\"testObservability\":true,\"accessibility\":false,\"browserstackLocal\":false,\"browserstackAutomation\":true,\"selfHeal\":false,\"disableAutoCaptureLogs\":false,\"testhub\":true,\"platforms\":[],\"testContextOptions\":{\"skipSessionStatus\":false,\"skipSessionName\":false},\"logDir\":\"/Users/breadfast/IdeaProjects/githubactionspoc/log\",\"buildIdentifier\":\"#5\",\"browserStackLocalOptions\":{\"key\":\"s9eaXLwDiuMcyTmFpJgf\",\"skipBinaryInitialisation\":false},\"testOrchestrationOptions\":{\"retryTestsOnFailure\":{},\"abortBuildOnFailure\":{}},\"apis\":{\"automate\":{\"hub\":\"https://hub.browserstack.com\",\"cdp\":\"https://cdp.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"appAutomate\":{\"hub\":\"https://hub.browserstack.com\",\"api\":\"https://api.browserstack.com\",\"upload\":\"https://api-cloud.browserstack.com\"},\"percy\":{\"api\":\"https://api.browserstack.com\"},\"turboScale\":{\"api\":\"https://grid.browserstack.com\"},\"accessibility\":{\"api\":\"https://accessibility.browserstack.com\"},\"appAccessibility\":{\"api\":\"https://app-accessibility.browserstack.com\"},\"observability\":{\"api\":\"https://collector-observability.browserstack.com\",\"upload\":\"https://upload-observability.browserstack.com\"},\"configServer\":{\"api\":\"https://sdk.browserstack.com\"},\"edsInstrumentation\":{\"api\":\"https://eds.browserstack.com\"},\"tcg\":{\"api\":\"https://tcg.browserstack.com\"}},\"hubUrl\":\"https://hub-euw.browserstack.com/wd/hub\"}"
+testhub {
+  jwt: "eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzU3MDg2NTYzIiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjEwMDY4MDAxLCJzY29wZSI6eyJwcm9kdWN0Ijoic2RrIiwidXNlcl9hY2Nlc3MiOnsidGVzdF9vYnNlcnZhYmlsaXR5IjoxLCJhdXRvbWF0ZSI6MSwiYXBwX2F1dG9tYXRlIjoxLCJwZXJjeSI6MSwiYXBwX3BlcmN5IjoxLCJhY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjAsImFwcF9hY2Nlc3NpYmlsaXR5X3Rlc3RpbmciOjEsImF1dG9tYXRlX3R1cmJvc2NhbGUiOjEsImxvd19jb2RlX2F1dG9tYXRpb24iOjF9LCJpYWFtX3JvbGUiOiJvd25lciJ9LCJncm91cF9pZCI6OTk3NzM5MSwidGVhbV9pZCI6bnVsbCwidWRhY19hY2Nlc3MiOiJnbG9iYWwifQ.ubBO19wQQTIflP7J5BUShe9SqOT-d9J1qE_cttsjoEQmD8OcRBeY-Vko_SnD3ti080NDRi_vV8RR-NzzdlzMLptfYRREUPaiqe_xZGFRsBoCY-zt_BqKVb0lEIYk90ZSNxTAwXXNPNFrrX_n3BHYOqxpcItAeE5MFZw4HbXzQGx8PVDvUntbJ9D0nlXXM0sdR8RcYnp7R3hhL1CXbd3fAXao0XhKWoRWVuZPeOxPa9hLRslxJG31EDACExozRxKLkdQXa8f4mRbottxyTJGPFd-oGnnwfthO20qEGsjp3UUL_7LtYH4UlmBvBKszsqyxH4mCTb-pDDex7Y6Lnezxog"
+  build_hashed_id: "o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1"
+  testhub_events: true
+}
+observability {
+  success: true
+}
+session_framework: "selenium"
+test_orchestration {
+  retry_tests_on_failure {
+  }
+  abort_build_on_failure {
+  }
+}
+
+15:36:04.487 [main] DEBUG com.browserstack.v2.SdkCLI - loadBinResponse: configured module=WebdriverModule & dcf13c45-c062-4131-8e51-6ecdd5b5e45a
+15:36:04.489 [main] DEBUG com.browserstack.v2.SdkCLI - loadBinResponse: configured module=ObservabilityModule & dcf13c45-c062-4131-8e51-6ecdd5b5e45a
+15:36:04.489 [main] DEBUG com.browserstack.v2.SdkCLI - loadBinResponse: configured module=TestHubModule & dcf13c45-c062-4131-8e51-6ecdd5b5e45a
+15:36:04.499 [main] INFO  com.browserstack.v2.SdkCLI - startChild: child-process connected
+15:36:04.505 [main] INFO  com.browserstack.v2.SdkCLI - startMain: main-process connected
+15:36:07.801 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+15:36:07.814 [main] INFO  com.browserstack.testOps.Listener - onStart: CLI is active
+15:36:08.012 [main] DEBUG com.browserstack.v2.SdkCLI - Setting up testng framework
+15:36:08.013 [main] DEBUG com.browserstack.v2.SdkCLI - Setting up selenium framework
+15:36:08.073 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.130 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.130 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.132 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.132 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.132 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.133 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.133 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.133 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.133 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.133 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.136 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.136 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.136 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.136 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.136 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.137 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.137 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.137 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.137 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.137 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.137 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.137 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.138 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.138 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.138 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.139 [main] INFO  com.browserstack.testOps.Listener - logCreated: CLI is active
+15:36:08.147 [main] INFO  c.b.v2.framework.TestNgFramework - trackTestNgTest: saved instance contextId=662174653 target=githubactionspoc@null instances=[662174653]
+15:36:08.147 [main] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=662174653
+15:36:08.147 [main] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded instance, testFrameworkState=TestFrameworkState.INIT_TEST hookState=HookState.PRE instance=662174653
+15:36:08.153 [githubactionspoc@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_TEST hookState=HookState.PRE instance=662174653
+15:36:08.153 [githubactionspoc@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_TEST hookState=HookState.PRE instance=662174653
+15:36:08.153 [githubactionspoc@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+15:36:08.181 [githubactionspoc@null] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=STARTED method=SimpleSeleniumTest.setUp()[pri:0, instance:SimpleSeleniumTest@1716e8c5] output={null}]
+15:36:08.182 [githubactionspoc@null] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = BEFORE_TEST & hook = {hook_name=setUp, hook_result=pending, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:36:08.182342, hook_id=1919ca62-3fb5-430d-8dcf-74b22ff6ccbf, hook_logs=[], key=BEFORE_TEST, custom_metadata={}, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}  and args = [[TestResult name=setUp status=STARTED method=SimpleSeleniumTest.setUp()[pri:0, instance:SimpleSeleniumTest@1716e8c5] output={null}], SimpleSeleniumTest.setUp()[pri:0, instance:SimpleSeleniumTest@1716e8c5]]
+15:36:08.182 [githubactionspoc@null] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_TEST.HookState.PRE , hooks started={BEFORE_TEST=[{hook_name=setUp, hook_result=pending, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:36:08.182342, hook_id=1919ca62-3fb5-430d-8dcf-74b22ff6ccbf, hook_logs=[], key=BEFORE_TEST, custom_metadata={}, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}]} , hooks finished={BEFORE_TEST=[]}
+15:36:08.191 [githubactionspoc@null] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@67064bdc, response=success: true
+
+15:36:08.547 [setUp@null] INFO  c.b.v2.framework.SeleniumFramework - trackSeleniumTest: saved instance contextId=1506822941 target=3106:3 instances=[1506822941]
+15:36:08.547 [setUp@null] INFO  c.b.v2.module.WebdriverModule - onBeforeDriverCreate: event=com.browserstack.v2.eventBus.Event@2f74900b
+15:36:08.550 [setUp@null] INFO  c.b.v2.module.WebdriverModule - onBeforeDriverCreate: event=com.browserstack.v2.eventBus.Event@2f74900b
+15:36:08.570 [setUp@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@4eb9f2af
+15:36:08.570 [setUp@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@4eb9f2af
+15:36:12.984 [setUp@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@448b808a
+15:36:12.985 [setUp@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@448b808a
+15:36:12.985 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:36:12.985 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:36:12.985 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:36:12.985 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:36:12.986 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:36:12.990 [setUp@null] INFO  c.b.v2.framework.SeleniumFramework - trackSeleniumTest: saved instance contextId=1506822941 target=3106:3 instances=[1506822941]
+15:36:12.990 [setUp@null] INFO  c.b.v2.module.WebdriverModule - onDriverCreated: event=com.browserstack.v2.eventBus.Event@485caa8f
+15:36:12.990 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:12.990 [setUp@null] INFO  c.b.v2.module.WebdriverModule - Found session id=3b0151867a343f7d21ee25b387b988e17f6a6714 for instance=com.browserstack.v2.instance.AutomationFrameworkInstance@ebda593
+15:36:12.991 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:12.991 [setUp@null] INFO  c.b.v2.module.WebdriverModule - Driver added successfully to automationFramework
+15:36:12.995 [setUp@null] ERROR c.b.v2.module.WebdriverModule - Error AutomationFrameworkStart to start driver with error java.lang.ClassCastException: class java.lang.Object cannot be cast to class browserstack.sdk.v1.Sdk$AutomationFrameworkStartResponse (java.lang.Object is in module java.base of loader 'bootstrap'; browserstack.sdk.v1.Sdk$AutomationFrameworkStartResponse is in unnamed module of loader 'app')
+	at com.browserstack.v2.module.WebdriverModule.startDriver(Unknown Source)
+	at com.browserstack.v2.module.WebdriverModule.onDriverCreated(Unknown Source)
+	at com.browserstack.v2.eventBus.EventDispatcher.notifyModuleObservers(Unknown Source)
+	at com.browserstack.v2.framework.AutomationFramework.runHooks(Unknown Source)
+	at com.browserstack.v2.framework.SeleniumFramework.trackEvent(Unknown Source)
+	at com.browserstack.selenium.SeleniumHandler.persistDriverInstance(Unknown Source)
+	at com.browserstack.selenium.SeleniumHandler.afterDriverInit(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:184)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:99)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
+	at BaseTests.initializeDriver(BaseTests.java:21)
+	at SimpleSeleniumTest.setUp(SimpleSeleniumTest.java:16)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:646)
+	at org.testng.TestRunner.run(TestRunner.java:612)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+15:36:12.995 [setUp@null] INFO  c.b.v2.module.WebdriverModule - onDriverCreated: event=com.browserstack.v2.eventBus.Event@485caa8f
+15:36:12.995 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:12.995 [setUp@null] INFO  c.b.v2.module.WebdriverModule - Found session id=3b0151867a343f7d21ee25b387b988e17f6a6714 for instance=com.browserstack.v2.instance.AutomationFrameworkInstance@ebda593
+15:36:12.995 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:12.995 [setUp@null] INFO  c.b.v2.module.WebdriverModule - Driver added successfully to automationFramework
+15:36:12.995 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:13.007 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:13.007 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:13.008 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:13.008 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:13.020 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:13.021 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:13.021 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:13.021 [setUp@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2da99821
+15:36:13.022 [setUp@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@2da99821
+15:36:13.022 [setUp@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@62cba181
+15:36:13.022 [setUp@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@62cba181
+15:36:13.324 [setUp@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@54b2fc58
+15:36:13.324 [setUp@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@54b2fc58
+15:36:13.324 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:36:13.324 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:36:13.325 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:36:13.325 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:36:13.325 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:36:13.331 [setUp@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@6cbbb9c4
+15:36:13.331 [setUp@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@6cbbb9c4
+15:36:13.332 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:36:13.332 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:36:13.332 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:36:13.332 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:36:13.332 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:36:13.337 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:13.337 [setUp@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@20ead579
+15:36:13.337 [setUp@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@20ead579
+15:36:14.156 [setUp@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@1526f71
+15:36:14.156 [setUp@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@1526f71
+15:36:14.157 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:36:14.157 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:36:14.157 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:36:14.157 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:36:14.157 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:36:14.164 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.BEFORE_TEST hookState=HookState.POST instance=662174653
+15:36:14.164 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded common test data, testFrameworkState=TestFrameworkState.BEFORE_TEST hookState=HookState.POST instance=662174653
+15:36:14.164 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+15:36:14.186 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=setUp status=SUCCESS method=SimpleSeleniumTest.setUp()[pri:0, instance:SimpleSeleniumTest@1716e8c5] output={null}]
+15:36:14.187 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=setUp, hook_result=pending, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:36:08.182342, hook_id=1919ca62-3fb5-430d-8dcf-74b22ff6ccbf, hook_logs=[], key=BEFORE_TEST, custom_metadata={}, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}] and args = [[TestResult name=setUp status=SUCCESS method=SimpleSeleniumTest.setUp()[pri:0, instance:SimpleSeleniumTest@1716e8c5] output={null}], SimpleSeleniumTest.setUp()[pri:0, instance:SimpleSeleniumTest@1716e8c5]]
+15:36:14.187 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/HookLevel
+15:36:14.187 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+15:36:14.187 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = /Users/breadfast/.browserstack/UploadedAttachments-3/HookLevel/BuildLevelHookEvent and abs path = /Users/breadfast/.browserstack/UploadedAttachments-3/HookLevel/BuildLevelHookEvent 
+15:36:14.187 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/HookLevel/BuildLevelHookEvent
+15:36:14.187 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+15:36:14.187 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+15:36:14.187 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=BEFORE_TEST.HookState.POST , hooks started={BEFORE_TEST=[]} , hooks finished={BEFORE_TEST=[{hook_name=setUp, hook_result=passed, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:36:08.182342, hook_id=1919ca62-3fb5-430d-8dcf-74b22ff6ccbf, hook_logs=[], logs=[], key=BEFORE_TEST, custom_metadata={}, event_ended_at=2025-09-05T15:36:14.187296, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}]}
+15:36:14.193 [setUp@null] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@5995851e, response=success: true
+
+15:36:14.212 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=662174653
+15:36:14.222 [setUp@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: loaded initial test data to instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.PRE instance=662174653
+15:36:14.222 [setUp@null] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@f25f48a
+15:36:14.222 [setUp@null] INFO  c.b.v2.module.WebdriverModule - onBeforeTest: event=com.browserstack.v2.eventBus.Event@f25f48a
+15:36:14.222 [setUp@null] INFO  c.b.v2.module.TestHubModule - onAfterTest: event={com.browserstack.v2.eventBus.Event@f25f48a}
+15:36:14.235 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:14.240 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:14.245 [setUp@null] INFO  c.b.v2.module.TestHubModule - sendTestSessionEvent: event=com.browserstack.v2.eventBus.Event@f25f48a, response=success: true
+
+15:36:14.250 [setUp@null] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@f25f48a, response=success: true
+
+15:36:14.252 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - onBeforeTest: event={instance=com.browserstack.v2.instance.TestFrameworkInstance@6ac4c3f7, testFrameworkState=TestFrameworkState.TEST, testInstance=com.browserstack.v2.instance.TestFrameworkInstance@6ac4c3f7, autoInstance=[com.browserstack.v2.instance.AutomationFrameworkInstance@ebda593], hookState=HookState.PRE}
+15:36:14.252 [setUp@null] INFO  c.b.v2.module.ObservabilityModule - performTestReportingSync: Performing TEST REPORTING AND ANALYTICS Sync
+15:36:14.252 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:14.252 [setUp@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:14.344 [testCases@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:14.344 [testCases@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@72543547
+15:36:14.344 [testCases@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@72543547
+15:36:18.924 [Forwarding findElement on session 3b0151867a343f7d21ee25b387b988e17f6a6714 to remote] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:18.928 [testCases@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4a1a256d
+15:36:18.928 [testCases@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@4a1a256d
+15:36:18.928 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:36:18.929 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:36:18.929 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:36:18.929 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:36:18.929 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:36:18.934 [testCases@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:18.934 [testCases@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:18.934 [testCases@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:18.934 [testCases@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:18.935 [testCases@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@3cdc7b09
+15:36:18.935 [testCases@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@3cdc7b09
+15:36:19.261 [testCases@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@5974b233
+15:36:19.262 [testCases@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@5974b233
+15:36:19.262 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:36:19.262 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:36:19.262 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:36:19.262 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:36:19.262 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:36:19.267 [testCases@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@69de5bed
+15:36:19.267 [testCases@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@69de5bed
+15:36:19.402 [testCases@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@115dcaea
+15:36:19.403 [testCases@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@115dcaea
+15:36:19.403 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:36:19.403 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:36:19.403 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:36:19.403 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:36:19.404 [testCases@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:36:19.412 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG hookState=HookState.PRE instance=662174653
+15:36:19.412 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load log entries
+15:36:19.428 [testCases@null] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@11c713b7, response=success: true
+
+15:36:19.429 [testCases@null] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@11c713b7
+15:36:19.433 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.PRE instance=662174653
+15:36:19.433 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG_REPORT hookState=HookState.POST instance=662174653
+15:36:19.433 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load test results
+15:36:19.434 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.TEST hookState=HookState.POST instance=662174653
+15:36:19.435 [testCases@null] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@3aed69dd
+15:36:19.435 [testCases@null] INFO  c.b.utils.SeleniumMethodUtils - Session Name ID status marking: 3b0151867a343f7d21ee25b387b988e17f6a6714
+15:36:19.990 [testCases@null] ERROR c.b.utils.SeleniumMethodUtils - Done for sessionid 3b0151867a343f7d21ee25b387b988e17f6a6714
+15:36:19.990 [testCases@null] INFO  c.b.utils.SeleniumMethodUtils - Session ID status marking: 3b0151867a343f7d21ee25b387b988e17f6a6714
+15:36:20.563 [testCases@null] INFO  c.b.v2.module.WebdriverModule - onAfterTest: event=com.browserstack.v2.eventBus.Event@3aed69dd
+15:36:20.563 [testCases@null] INFO  c.b.utils.SeleniumMethodUtils - Session Name ID status marking: 3b0151867a343f7d21ee25b387b988e17f6a6714
+15:36:21.452 [testCases@null] ERROR c.b.utils.SeleniumMethodUtils - Done for sessionid 3b0151867a343f7d21ee25b387b988e17f6a6714
+15:36:21.452 [testCases@null] INFO  c.b.utils.SeleniumMethodUtils - Session ID status marking: 3b0151867a343f7d21ee25b387b988e17f6a6714
+15:36:21.955 [testCases@null] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@3aed69dd, response=success: true
+
+15:36:21.963 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_TEST hookState=HookState.PRE instance=662174653
+15:36:21.963 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+15:36:21.979 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=teardown status=STARTED method=SimpleSeleniumTest.teardown()[pri:0, instance:SimpleSeleniumTest@1716e8c5] output={null}]
+15:36:21.979 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - Hook Started in PRE key = AFTER_TEST & hook = {hook_name=teardown, hook_result=pending, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:36:21.979663, hook_id=7103519a-5653-48c9-963e-09e01fc901fb, hook_logs=[], key=AFTER_TEST, custom_metadata={}, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}  and args = [[TestResult name=teardown status=STARTED method=SimpleSeleniumTest.teardown()[pri:0, instance:SimpleSeleniumTest@1716e8c5] output={null}], SimpleSeleniumTest.teardown()[pri:0, instance:SimpleSeleniumTest@1716e8c5]]
+15:36:21.979 [testCases@null] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_TEST.HookState.PRE , hooks started={BEFORE_TEST=[], AFTER_TEST=[{hook_name=teardown, hook_result=pending, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:36:21.979663, hook_id=7103519a-5653-48c9-963e-09e01fc901fb, hook_logs=[], key=AFTER_TEST, custom_metadata={}, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}]} , hooks finished={BEFORE_TEST=[{hook_name=setUp, hook_result=passed, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:36:08.182342, hook_id=1919ca62-3fb5-430d-8dcf-74b22ff6ccbf, hook_logs=[], logs=[], key=BEFORE_TEST, custom_metadata={}, event_ended_at=2025-09-05T15:36:14.187296, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}], AFTER_TEST=[]}
+15:36:21.984 [testCases@null] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@198536f6, response=success: true
+
+15:36:21.987 [teardown@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:21.987 [teardown@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:21.987 [teardown@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:21.988 [teardown@null] INFO  c.b.v2.module.WebdriverModule - onDriverQuit: event=com.browserstack.v2.eventBus.Event@1e12a5a6
+15:36:21.990 [teardown@null] INFO  c.b.v2.module.WebdriverModule - onDriverQuit: event=com.browserstack.v2.eventBus.Event@1e12a5a6
+15:36:21.990 [teardown@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:21.999 [teardown@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:22.002 [teardown@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:22.003 [teardown@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:22.003 [teardown@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@64502326
+15:36:22.003 [teardown@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@64502326
+15:36:22.003 [teardown@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@6dca31eb
+15:36:22.003 [teardown@null] INFO  c.b.v2.module.WebdriverModule - beforeCommandExecute: event=com.browserstack.v2.eventBus.Event@6dca31eb
+15:36:22.943 [teardown@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@740fefc6
+15:36:22.943 [teardown@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@740fefc6
+15:36:22.943 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:36:22.943 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:36:22.944 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:36:22.944 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:36:22.944 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:36:22.950 [teardown@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@733e6df7
+15:36:22.950 [teardown@null] INFO  c.b.v2.module.WebdriverModule - afterCommandExecute: event=com.browserstack.v2.eventBus.Event@733e6df7
+15:36:22.950 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - THREAD ID Inside Process= 3
+15:36:22.950 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - Processing TestLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/TestLevel
+15:36:22.950 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - Processing BuildLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/BuildLevel
+15:36:22.950 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - Processing attachments eventLogs: []
+15:36:22.950 [teardown@null] INFO  c.b.v2.module.ObservabilityModule - sendLogCreatedEvent: No Log Events to send
+15:36:22.954 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.AFTER_TEST hookState=HookState.POST instance=662174653
+15:36:22.954 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: track hook events
+15:36:22.972 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - args CHECK = [TestResult name=teardown status=SUCCESS method=SimpleSeleniumTest.teardown()[pri:0, instance:SimpleSeleniumTest@1716e8c5] output={null}]
+15:36:22.972 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - Hook List in Post [{hook_name=teardown, hook_result=pending, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:36:21.979663, hook_id=7103519a-5653-48c9-963e-09e01fc901fb, hook_logs=[], key=AFTER_TEST, custom_metadata={}, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}] and args = [[TestResult name=teardown status=SUCCESS method=SimpleSeleniumTest.teardown()[pri:0, instance:SimpleSeleniumTest@1716e8c5] output={null}], SimpleSeleniumTest.teardown()[pri:0, instance:SimpleSeleniumTest@1716e8c5]]
+15:36:22.972 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - Processing HookLevel attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/HookLevel
+15:36:22.972 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - Checking hookLevelFiles: []
+15:36:22.972 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - checking Paths of files = /Users/breadfast/.browserstack/UploadedAttachments-3/HookLevel/BuildLevelHookEvent and abs path = /Users/breadfast/.browserstack/UploadedAttachments-3/HookLevel/BuildLevelHookEvent 
+15:36:22.972 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - Processing BuildLevelHookEvent attachments from directory: /Users/breadfast/.browserstack/UploadedAttachments-3/HookLevel/BuildLevelHookEvent
+15:36:22.972 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - Processing TestLevel attachments eventLogs: []
+15:36:22.972 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - sendLogCreatedEvent: No Log Events to send
+15:36:22.972 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - trackHookEvents: hook state=AFTER_TEST.HookState.POST , hooks started={BEFORE_TEST=[], AFTER_TEST=[]} , hooks finished={BEFORE_TEST=[{hook_name=setUp, hook_result=passed, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:36:08.182342, hook_id=1919ca62-3fb5-430d-8dcf-74b22ff6ccbf, hook_logs=[], logs=[], key=BEFORE_TEST, custom_metadata={}, event_ended_at=2025-09-05T15:36:14.187296, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}], AFTER_TEST=[{hook_name=teardown, hook_result=passed, test_file_path=githubactionspoc/src/test/java/SimpleSeleniumTest.java, event_started_at=2025-09-05T15:36:21.979663, hook_id=7103519a-5653-48c9-963e-09e01fc901fb, hook_logs=[], logs=[], key=AFTER_TEST, custom_metadata={}, event_ended_at=2025-09-05T15:36:22.972496, test_location=githubactionspoc/src/test/java/SimpleSeleniumTest.java}]}
+15:36:22.978 [teardown@null] INFO  c.b.v2.module.TestHubModule - sendTestFrameworkEvent: event=com.browserstack.v2.eventBus.Event@32227215, response=success: true
+
+15:36:23.353 [teardown@null] INFO  c.b.utils.BrowserStackDriverMap - thread id: 3 list {}
+15:36:23.365 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: found instance, testFrameworkState=TestFrameworkState.LOG hookState=HookState.PRE instance=662174653
+15:36:23.365 [teardown@null] INFO  c.b.v2.framework.TestNgFramework - trackEvent: load log entries
+15:36:23.371 [teardown@null] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@498c535d, response=success: true
+
+15:36:23.371 [teardown@null] INFO  c.b.v2.module.TestHubModule - sendLogCreatedEvent: event=com.browserstack.v2.eventBus.Event@498c535d
+15:36:23.377 [Thread-0] INFO  com.browserstack.testOps.Listener - onComplete: CLI is active
+15:36:23.379 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli stop triggered
+15:36:27.800 [Thread-0] DEBUG com.browserstack.v2.SdkCLI - stop-bin-session=success: true
+automate_buildlink: "https://automate.browserstack.com/dashboard/v2/builds/8b427e4a43fc21cb016388260f7b6c0eec68af2a"
+hashed_id: "8b427e4a43fc21cb016388260f7b6c0eec68af2a"
+
+15:36:27.811 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: shutting down CLI
+15:36:29.426 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - Visit https://automation.browserstack.com/builds/o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1 to view build report, insights, and many more debugging information all at one place!
+15:36:29.428 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:36:29.428 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/8b427e4a43fc21cb016388260f7b6c0eec68af2a
+15:36:29.428 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+15:36:29.434 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: 14326b73-9d8f-49b7-b5ce-0e48238bdd0f, testhub id: o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1
+15:36:29.434 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO

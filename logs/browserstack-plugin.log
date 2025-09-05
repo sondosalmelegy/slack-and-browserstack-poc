@@ -406,3 +406,15 @@
 15:19:46.252 [ApplicationImpl pooled thread 133] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/breadfast/.m2/repository/com/browserstack/browserstack-java-sdk/1.40.1/browserstack-java-sdk-1.40.1.jar
 15:19:46.252 [ApplicationImpl pooled thread 133] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
 15:19:46.252 [ApplicationImpl pooled thread 133] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+15:35:08.801 [ApplicationImpl pooled thread 124] INFO  c.b.l.BrowserStackRunExtension - testng
+15:35:08.802 [ApplicationImpl pooled thread 124] INFO  com.browserstack.utils.Helpers - true
+15:35:08.802 [ApplicationImpl pooled thread 124] INFO  com.browserstack.utils.Helpers - /Users/breadfast/.m2/repository/com/browserstack/browserstack-java-sdk/1.40.1/browserstack-java-sdk-1.40.1.jar
+15:35:08.802 [ApplicationImpl pooled thread 124] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/breadfast/.m2/repository/com/browserstack/browserstack-java-sdk/1.40.1/browserstack-java-sdk-1.40.1.jar
+15:35:08.802 [ApplicationImpl pooled thread 124] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+15:35:08.802 [ApplicationImpl pooled thread 124] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+15:36:00.752 [ApplicationImpl pooled thread 143] INFO  c.b.l.BrowserStackRunExtension - testng
+15:36:00.752 [ApplicationImpl pooled thread 143] INFO  com.browserstack.utils.Helpers - true
+15:36:00.753 [ApplicationImpl pooled thread 143] INFO  com.browserstack.utils.Helpers - /Users/breadfast/.m2/repository/com/browserstack/browserstack-java-sdk/1.40.1/browserstack-java-sdk-1.40.1.jar
+15:36:00.753 [ApplicationImpl pooled thread 143] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/breadfast/.m2/repository/com/browserstack/browserstack-java-sdk/1.40.1/browserstack-java-sdk-1.40.1.jar
+15:36:00.753 [ApplicationImpl pooled thread 143] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+15:36:00.753 [ApplicationImpl pooled thread 143] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6

@@ -19548,3 +19548,807 @@
 2025-09-05T12:20:12.985Z CLI info  [sondosalmelegy_J97jpw]  [remzkefdq4ye4xvpawin3edcfh7njeypydzqjlej]  [1b3419e9-5fd2-484b-81c8-0ad639632244]  [PRODUCTION] Making GET request to https://api.browserstack.com
 2025-09-05T12:20:13.347Z CLI info  [sondosalmelegy_J97jpw]  [remzkefdq4ye4xvpawin3edcfh7njeypydzqjlej]  [1b3419e9-5fd2-484b-81c8-0ad639632244]  [PRODUCTION] Making POST request to https://eds.browserstack.com
 2025-09-05T12:20:14.051Z CLI info [main]  [sondosalmelegy_J97jpw]  [remzkefdq4ye4xvpawin3edcfh7njeypydzqjlej]  [1b3419e9-5fd2-484b-81c8-0ad639632244]  Received graceful signal termination, performing cleanup
+2025-09-05T12:35:12.021Z CLI info [main]     Server listening on port: 5400
+2025-09-05T12:35:12.253Z CLI info     Config : {"userName":"sondosalmelegy_J97jpw","accessKey":"s9eaXLwDiuMcyTmFpJgf","buildName":"Notifying Browserstack and slack","projectName":"My First Github Actions POC","CUSTOM_TAG_1":"You can set a custom Build Tag here","framework":"testng","testObservability":true}
+2025-09-05T12:35:12.266Z CLI info [testhub:module]  [sondosalmelegy_J97jpw]   [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Starting testhub from 3059:0
+2025-09-05T12:35:12.266Z CLI info [testhub:module]  [sondosalmelegy_J97jpw]   [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  startBuild: payload=
+
+{"started_at":"2025-09-05T12:35:12.266Z","host_info":{"hostname":"Breadfasts-MacBook-Pro-4.local","platform":"darwin","type":"Darwin","version":"Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:34 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8103","arch":"arm64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"2c0f8e677d86d51236e50cfe4a3badadf4b4ab7e","short_sha":"2c0f8e677d","branch":"main","tag":null,"committer":"SondosNasserJoda <sondos.nasser@breadfast.com>","committer_date":"2025-09-05T12:30:23.000Z","author":"SondosNasserJoda <sondos.nasser@breadfast.com>","author_date":"2025-09-05T12:30:23.000Z","commit_message":"Notifying Browserstack and slack","root":"/Users/breadfast/IdeaProjects/githubactionspoc","common_git_dir":"/Users/breadfast/IdeaProjects/githubactionspoc/.git","worktree_git_dir":"/Users/breadfast/IdeaProjects/githubactionspoc/.git","last_tag":null,"commits_since_last_tag":null,"remotes":[{"name":"origin","url":"https://github.com/sondosalmelegy/slack-and-browserstack-poc.git"}]},"project_name":"My First Github Actions POC","name":"Notifying Browserstack and slack","build_identifier":"#4","build_run_identifier":null,"description":"","tags":["You can set a custom Build Tag here"],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"TestNG","frameworkVersion":"7.11.0","sdkVersion":"1.40.1","cliVersion":"1.6.16","language":"java","testFramework":{"name":"selenium","version":"4.35.0"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-09-05T12:35:12.266Z CLI info  [sondosalmelegy_J97jpw]   [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-09-05T12:35:13.265Z CLI info [testhub:module]  [sondosalmelegy_J97jpw]   [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  startBuild: response=c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3
+2025-09-05T12:35:13.266Z CLI info  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-09-05T12:35:13.680Z CLI info  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-09-05T12:35:14.140Z CLI info  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-09-05T12:35:14.446Z CLI info  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2025-09-05T12:35:15.255Z CLI info  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-09-05T12:35:18.436Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_TEST',
+    framework: 'TestNG',
+    uuid: 'c4c46bd8-1973-45a9-8ac3-fd8912e083b8',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: 'cd8075b6-a31f-44c8-94f2-a3a5894aef8c',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.SimpleSeleniumTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'SimpleSeleniumTest' ],
+    file_name: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    vc_filepath: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    location: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    started_at: '2025-09-05T12:35:18.427Z'
+  },
+  logs: []
+} to 3059:0
+2025-09-05T12:35:19.269Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_TEST',
+      framework: 'TestNG',
+      uuid: 'c4c46bd8-1973-45a9-8ac3-fd8912e083b8',
+      name: 'setUp',
+      result: 'pending',
+      test_run_id: 'cd8075b6-a31f-44c8-94f2-a3a5894aef8c',
+      body: [Object],
+      scope: 'Default Suite.SimpleSeleniumTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      vc_filepath: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      location: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      started_at: '2025-09-05T12:35:18.427Z'
+    },
+    logs: []
+  }
+] to 3059:0
+2025-09-05T12:35:19.270Z CLI info  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-05T12:35:28.351Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_TEST',
+    framework: 'TestNG',
+    uuid: 'c4c46bd8-1973-45a9-8ac3-fd8912e083b8',
+    name: 'setUp',
+    result: 'passed',
+    test_run_id: 'cd8075b6-a31f-44c8-94f2-a3a5894aef8c',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.SimpleSeleniumTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'SimpleSeleniumTest' ],
+    file_name: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    vc_filepath: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    location: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    started_at: '2025-09-05T12:35:18.427Z',
+    finished_at: '2025-09-05T12:35:28.346Z'
+  },
+  logs: []
+} to 3059:0
+2025-09-05T12:35:28.405Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'cd8075b6-a31f-44c8-94f2-a3a5894aef8c',
+    integrations: { browserstack: [Object] }
+  }
+} to 3059:0
+2025-09-05T12:35:28.410Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'cd8075b6-a31f-44c8-94f2-a3a5894aef8c',
+    name: 'testCases',
+    body: {
+      lang: 'java',
+      code: 'public void SimpleSeleniumTest.testCases()'
+    },
+    identifier: 'testCases',
+    scope: 'Default Suite.SimpleSeleniumTest',
+    scopes: [ 'Default Suite', 'SimpleSeleniumTest' ],
+    file_name: 'src/test/java/SimpleSeleniumTest.java',
+    vc_filepath: 'src/test/java/SimpleSeleniumTest.java',
+    location: 'src/test/java/SimpleSeleniumTest.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-09-05T12:35:28.383Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'githubactionspoc' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3059:0
+2025-09-05T12:35:29.276Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_TEST',
+      framework: 'TestNG',
+      uuid: 'c4c46bd8-1973-45a9-8ac3-fd8912e083b8',
+      name: 'setUp',
+      result: 'passed',
+      test_run_id: 'cd8075b6-a31f-44c8-94f2-a3a5894aef8c',
+      body: [Object],
+      scope: 'Default Suite.SimpleSeleniumTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      vc_filepath: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      location: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      started_at: '2025-09-05T12:35:18.427Z',
+      finished_at: '2025-09-05T12:35:28.346Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'cd8075b6-a31f-44c8-94f2-a3a5894aef8c',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'cd8075b6-a31f-44c8-94f2-a3a5894aef8c',
+      name: 'testCases',
+      body: [Object],
+      identifier: 'testCases',
+      scope: 'Default Suite.SimpleSeleniumTest',
+      scopes: [Array],
+      file_name: 'src/test/java/SimpleSeleniumTest.java',
+      vc_filepath: 'src/test/java/SimpleSeleniumTest.java',
+      location: 'src/test/java/SimpleSeleniumTest.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-09-05T12:35:28.383Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 3059:0
+2025-09-05T12:35:29.279Z CLI info  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-05T12:35:29.456Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-09-05T12:35:29.442Z',
+      uuid: 'cd8075b6-a31f-44c8-94f2-a3a5894aef8c',
+      kind: 'TEST_LOG',
+      message: '"Find your next stay"',
+      level: 'INFO',
+      test_run_uuid: 'cd8075b6-a31f-44c8-94f2-a3a5894aef8c'
+    }
+  ]
+} to 3059:0
+2025-09-05T12:35:31.275Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Processing batch event [ { event_type: 'LogCreated', logs: [ [Object] ] } ] to 3059:0
+2025-09-05T12:35:31.276Z CLI info  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-05T12:35:31.829Z CLI warn [TEST REPORTING AND ANALYTICS:java:testng]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  TestRunFinished: event={"test_hook_last_started":"BEFORE_TEST","test_failure_type":null,"test_rerun_name":"githubactionspoc","test_result_at":"2025-09-05T15:35:29.463519","test_scope":"Default Suite.SimpleSeleniumTest","test_framework_name":"TestNG","test_tags":"","cbt_session_created":true,"test_started_at":"2025-09-05T15:35:28.383086","platform_index":0,"test_failure":null,"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Default Suite","SimpleSeleniumTest"],"test_code":"public void SimpleSeleniumTest.testCases()","test_id":"githubactionspoc@null","test_uuid":"cd8075b6-a31f-44c8-94f2-a3a5894aef8c","test_ended_at":"2025-09-05T15:35:29.464188","automate_session_name":"githubactionspocnull","test_hook_last_finished":"BEFORE_TEST","test_session_name":"SimpleSeleniumTest-testCases","test_hook_state":"sdk:hook:4e7b236a","custom_metadata":{},"test_failure_reason":null,"test_location":"src/test/java/SimpleSeleniumTest.java","test_hooks_started":{"BEFORE_TEST":[]},"test_file_path":"src/test/java/SimpleSeleniumTest.java","test_result":"passed","test_hooks_finished":{"BEFORE_TEST":[{"hook_name":"setUp","hook_result":"passed","test_file_path":"githubactionspoc/src/test/java/SimpleSeleniumTest.java","event_started_at":"2025-09-05T15:35:18.427849","hook_id":"c4c46bd8-1973-45a9-8ac3-fd8912e083b8","hook_logs":[],"logs":[],"key":"BEFORE_TEST","custom_metadata":{},"event_ended_at":"2025-09-05T15:35:28.346914","test_location":"githubactionspoc/src/test/java/SimpleSeleniumTest.java"}]},"hook_id":"c4c46bd8-1973-45a9-8ac3-fd8912e083b8","test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"testCases","logs":[]}
+2025-09-05T12:35:31.830Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: 'cd8075b6-a31f-44c8-94f2-a3a5894aef8c',
+    name: 'testCases',
+    body: {
+      lang: 'java',
+      code: 'public void SimpleSeleniumTest.testCases()'
+    },
+    identifier: 'testCases',
+    scope: 'Default Suite.SimpleSeleniumTest',
+    scopes: [ 'Default Suite', 'SimpleSeleniumTest' ],
+    file_name: 'src/test/java/SimpleSeleniumTest.java',
+    vc_filepath: 'src/test/java/SimpleSeleniumTest.java',
+    location: 'src/test/java/SimpleSeleniumTest.java',
+    meta: {},
+    result: 'passed',
+    duration_in_ms: 1081,
+    started_at: '2025-09-05T12:35:28.383Z',
+    finished_at: '2025-09-05T12:35:29.464Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'githubactionspoc' },
+    hooks: [ 'c4c46bd8-1973-45a9-8ac3-fd8912e083b8' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3059:0
+2025-09-05T12:35:31.860Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_TEST',
+    framework: 'TestNG',
+    uuid: 'b5c9d744-a6c8-42de-b1d5-81d3164b0c00',
+    name: 'teardown',
+    result: 'pending',
+    test_run_id: 'cd8075b6-a31f-44c8-94f2-a3a5894aef8c',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.SimpleSeleniumTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'SimpleSeleniumTest' ],
+    file_name: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    vc_filepath: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    location: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    started_at: '2025-09-05T12:35:31.856Z'
+  },
+  logs: []
+} to 3059:0
+2025-09-05T12:35:33.232Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_TEST',
+    framework: 'TestNG',
+    uuid: 'b5c9d744-a6c8-42de-b1d5-81d3164b0c00',
+    name: 'teardown',
+    result: 'passed',
+    test_run_id: 'cd8075b6-a31f-44c8-94f2-a3a5894aef8c',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.SimpleSeleniumTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'SimpleSeleniumTest' ],
+    file_name: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    vc_filepath: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    location: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    started_at: '2025-09-05T12:35:31.856Z',
+    finished_at: '2025-09-05T12:35:33.228Z'
+  },
+  logs: []
+} to 3059:0
+2025-09-05T12:35:33.275Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: 'cd8075b6-a31f-44c8-94f2-a3a5894aef8c',
+      name: 'testCases',
+      body: [Object],
+      identifier: 'testCases',
+      scope: 'Default Suite.SimpleSeleniumTest',
+      scopes: [Array],
+      file_name: 'src/test/java/SimpleSeleniumTest.java',
+      vc_filepath: 'src/test/java/SimpleSeleniumTest.java',
+      location: 'src/test/java/SimpleSeleniumTest.java',
+      meta: {},
+      result: 'passed',
+      duration_in_ms: 1081,
+      started_at: '2025-09-05T12:35:28.383Z',
+      finished_at: '2025-09-05T12:35:29.464Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_TEST',
+      framework: 'TestNG',
+      uuid: 'b5c9d744-a6c8-42de-b1d5-81d3164b0c00',
+      name: 'teardown',
+      result: 'pending',
+      test_run_id: 'cd8075b6-a31f-44c8-94f2-a3a5894aef8c',
+      body: [Object],
+      scope: 'Default Suite.SimpleSeleniumTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      vc_filepath: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      location: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      started_at: '2025-09-05T12:35:31.856Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_TEST',
+      framework: 'TestNG',
+      uuid: 'b5c9d744-a6c8-42de-b1d5-81d3164b0c00',
+      name: 'teardown',
+      result: 'passed',
+      test_run_id: 'cd8075b6-a31f-44c8-94f2-a3a5894aef8c',
+      body: [Object],
+      scope: 'Default Suite.SimpleSeleniumTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      vc_filepath: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      location: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      started_at: '2025-09-05T12:35:31.856Z',
+      finished_at: '2025-09-05T12:35:33.228Z'
+    },
+    logs: []
+  }
+] to 3059:0
+2025-09-05T12:35:33.276Z CLI info  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-05T12:35:33.671Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-09-05T12:35:33.668Z',
+      uuid: 'b5c9d744-a6c8-42de-b1d5-81d3164b0c00',
+      kind: 'TEST_LOG',
+      message: '"\\n===============================================\\nDefault Suite\\nTotal tests run: 1, Passes: 1, Failures: 0, Skips: 0\\n===============================================\\n"',
+      level: 'INFO',
+      test_run_uuid: 'b5c9d744-a6c8-42de-b1d5-81d3164b0c00'
+    }
+  ]
+} to 3059:0
+2025-09-05T12:35:33.739Z CLI info  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-05T12:35:34.268Z CLI error [testhub:module]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [collectBuildData] Exception in collecting build data for build UUID c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3: {"message":"Build data collection started"}
+2025-09-05T12:35:35.278Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Processing batch event [ { event_type: 'LogCreated', logs: [ [Object] ] } ] to 3059:0
+2025-09-05T12:35:35.279Z CLI info  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-05T12:35:35.891Z CLI info  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-09-05T12:35:36.453Z CLI info [testhub:module]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  stopBuild: c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3 request={"finished_at":"2025-09-05T12:35:33.689Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-09-05T12:35:36.456Z CLI info  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-09-05T12:35:36.458Z CLI info [TEST REPORTING AND ANALYTICS:module]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Visit https://automation.browserstack.com/builds/c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3 to view build report, insights, and many more debugging information all at one place!
+2025-09-05T12:35:36.959Z CLI info  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-09-05T12:35:37.504Z CLI info  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-09-05T12:35:38.283Z CLI info [main]  [sondosalmelegy_J97jpw]  [c5fcfnmfxvmrsn8twky5dszjhfzgjeyww8p45oj3]  [9d460c7c-eac1-45d0-b8d8-1e2555b4006f]  Received graceful signal termination, performing cleanup
+2025-09-05T12:36:02.464Z CLI info [main]     Server listening on port: 5400
+2025-09-05T12:36:02.672Z CLI info     Config : {"userName":"sondosalmelegy_J97jpw","accessKey":"s9eaXLwDiuMcyTmFpJgf","buildName":"Notifying Browserstack and slack","projectName":"My First Github Actions POC","CUSTOM_TAG_1":"You can set a custom Build Tag here","framework":"testng","testObservability":true}
+2025-09-05T12:36:02.689Z CLI info [testhub:module]  [sondosalmelegy_J97jpw]   [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Starting testhub from 3108:0
+2025-09-05T12:36:02.689Z CLI info [testhub:module]  [sondosalmelegy_J97jpw]   [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  startBuild: payload=
+
+{"started_at":"2025-09-05T12:36:02.689Z","host_info":{"hostname":"Breadfasts-MacBook-Pro-4.local","platform":"darwin","type":"Darwin","version":"Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:34 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8103","arch":"arm64"},"ci_info":{"build_number":null},"version_control":{"name":"git","sha":"2c0f8e677d86d51236e50cfe4a3badadf4b4ab7e","short_sha":"2c0f8e677d","branch":"main","tag":null,"committer":"SondosNasserJoda <sondos.nasser@breadfast.com>","committer_date":"2025-09-05T12:30:23.000Z","author":"SondosNasserJoda <sondos.nasser@breadfast.com>","author_date":"2025-09-05T12:30:23.000Z","commit_message":"Notifying Browserstack and slack","root":"/Users/breadfast/IdeaProjects/githubactionspoc","common_git_dir":"/Users/breadfast/IdeaProjects/githubactionspoc/.git","worktree_git_dir":"/Users/breadfast/IdeaProjects/githubactionspoc/.git","last_tag":null,"commits_since_last_tag":null,"remotes":[{"name":"origin","url":"https://github.com/sondosalmelegy/slack-and-browserstack-poc.git"}]},"project_name":"My First Github Actions POC","name":"Notifying Browserstack and slack","build_identifier":"#5","build_run_identifier":null,"description":"","tags":["You can set a custom Build Tag here"],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"TestNG","frameworkVersion":"7.11.0","sdkVersion":"1.40.1","cliVersion":"1.6.16","language":"java","testFramework":{"name":"selenium","version":"4.35.0"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true,"test_orchestration":{}}
+2025-09-05T12:36:02.689Z CLI info  [sondosalmelegy_J97jpw]   [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-09-05T12:36:03.292Z CLI info [testhub:module]  [sondosalmelegy_J97jpw]   [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  startBuild: response=o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1
+2025-09-05T12:36:03.294Z CLI info  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-09-05T12:36:03.688Z CLI info  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-09-05T12:36:04.019Z CLI info  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-09-05T12:36:04.452Z CLI info  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2025-09-05T12:36:05.112Z CLI info  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-09-05T12:36:08.189Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_TEST',
+    framework: 'TestNG',
+    uuid: '1919ca62-3fb5-430d-8dcf-74b22ff6ccbf',
+    name: 'setUp',
+    result: 'pending',
+    test_run_id: '5a996a58-8137-4e30-a186-3730336d3b4b',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.SimpleSeleniumTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'SimpleSeleniumTest' ],
+    file_name: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    vc_filepath: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    location: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    started_at: '2025-09-05T12:36:08.182Z'
+  },
+  logs: []
+} to 3108:0
+2025-09-05T12:36:09.298Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Processing batch event [
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_TEST',
+      framework: 'TestNG',
+      uuid: '1919ca62-3fb5-430d-8dcf-74b22ff6ccbf',
+      name: 'setUp',
+      result: 'pending',
+      test_run_id: '5a996a58-8137-4e30-a186-3730336d3b4b',
+      body: [Object],
+      scope: 'Default Suite.SimpleSeleniumTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      vc_filepath: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      location: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      started_at: '2025-09-05T12:36:08.182Z'
+    },
+    logs: []
+  }
+] to 3108:0
+2025-09-05T12:36:09.300Z CLI info  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-05T12:36:14.192Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'BEFORE_TEST',
+    framework: 'TestNG',
+    uuid: '1919ca62-3fb5-430d-8dcf-74b22ff6ccbf',
+    name: 'setUp',
+    result: 'passed',
+    test_run_id: '5a996a58-8137-4e30-a186-3730336d3b4b',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.SimpleSeleniumTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'SimpleSeleniumTest' ],
+    file_name: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    vc_filepath: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    location: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    started_at: '2025-09-05T12:36:08.182Z',
+    finished_at: '2025-09-05T12:36:14.187Z'
+  },
+  logs: []
+} to 3108:0
+2025-09-05T12:36:14.244Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '5a996a58-8137-4e30-a186-3730336d3b4b',
+    integrations: { browserstack: [Object] }
+  }
+} to 3108:0
+2025-09-05T12:36:14.249Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '5a996a58-8137-4e30-a186-3730336d3b4b',
+    name: 'testCases',
+    body: {
+      lang: 'java',
+      code: 'public void SimpleSeleniumTest.testCases()'
+    },
+    identifier: 'testCases',
+    scope: 'Default Suite.SimpleSeleniumTest',
+    scopes: [ 'Default Suite', 'SimpleSeleniumTest' ],
+    file_name: 'src/test/java/SimpleSeleniumTest.java',
+    vc_filepath: 'src/test/java/SimpleSeleniumTest.java',
+    location: 'src/test/java/SimpleSeleniumTest.java',
+    meta: {},
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-09-05T12:36:14.222Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'githubactionspoc' },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3108:0
+2025-09-05T12:36:15.304Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Processing batch event [
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'BEFORE_TEST',
+      framework: 'TestNG',
+      uuid: '1919ca62-3fb5-430d-8dcf-74b22ff6ccbf',
+      name: 'setUp',
+      result: 'passed',
+      test_run_id: '5a996a58-8137-4e30-a186-3730336d3b4b',
+      body: [Object],
+      scope: 'Default Suite.SimpleSeleniumTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      vc_filepath: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      location: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      started_at: '2025-09-05T12:36:08.182Z',
+      finished_at: '2025-09-05T12:36:14.187Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '5a996a58-8137-4e30-a186-3730336d3b4b',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '5a996a58-8137-4e30-a186-3730336d3b4b',
+      name: 'testCases',
+      body: [Object],
+      identifier: 'testCases',
+      scope: 'Default Suite.SimpleSeleniumTest',
+      scopes: [Array],
+      file_name: 'src/test/java/SimpleSeleniumTest.java',
+      vc_filepath: 'src/test/java/SimpleSeleniumTest.java',
+      location: 'src/test/java/SimpleSeleniumTest.java',
+      meta: {},
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-09-05T12:36:14.222Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    },
+    logs: []
+  }
+] to 3108:0
+2025-09-05T12:36:15.306Z CLI info  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-05T12:36:19.426Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-09-05T12:36:19.412Z',
+      uuid: '5a996a58-8137-4e30-a186-3730336d3b4b',
+      kind: 'TEST_LOG',
+      message: '"Find your next stay"',
+      level: 'INFO',
+      test_run_uuid: '5a996a58-8137-4e30-a186-3730336d3b4b'
+    }
+  ]
+} to 3108:0
+2025-09-05T12:36:21.304Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Processing batch event [ { event_type: 'LogCreated', logs: [ [Object] ] } ] to 3108:0
+2025-09-05T12:36:21.306Z CLI info  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-05T12:36:21.952Z CLI warn [TEST REPORTING AND ANALYTICS:java:testng]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  TestRunFinished: event={"test_hook_last_started":"BEFORE_TEST","test_failure_type":null,"test_rerun_name":"githubactionspoc","test_result_at":"2025-09-05T15:36:19.434046","test_scope":"Default Suite.SimpleSeleniumTest","test_framework_name":"TestNG","test_tags":"","cbt_session_created":true,"test_started_at":"2025-09-05T15:36:14.222722","platform_index":0,"test_failure":null,"test_framework_version":"7.11.0","test_logs":[],"test_scopes":["Default Suite","SimpleSeleniumTest"],"test_code":"public void SimpleSeleniumTest.testCases()","test_id":"githubactionspoc@null","test_uuid":"5a996a58-8137-4e30-a186-3730336d3b4b","test_ended_at":"2025-09-05T15:36:19.434912","automate_session_name":"githubactionspocnull","test_hook_last_finished":"BEFORE_TEST","test_session_name":"SimpleSeleniumTest-testCases","test_hook_state":"sdk:hook:5d3c4f5d","custom_metadata":{},"test_failure_reason":null,"test_location":"src/test/java/SimpleSeleniumTest.java","test_hooks_started":{"BEFORE_TEST":[]},"test_file_path":"src/test/java/SimpleSeleniumTest.java","test_result":"passed","test_hooks_finished":{"BEFORE_TEST":[{"hook_name":"setUp","hook_result":"passed","test_file_path":"githubactionspoc/src/test/java/SimpleSeleniumTest.java","event_started_at":"2025-09-05T15:36:08.182342","hook_id":"1919ca62-3fb5-430d-8dcf-74b22ff6ccbf","hook_logs":[],"logs":[],"key":"BEFORE_TEST","custom_metadata":{},"event_ended_at":"2025-09-05T15:36:14.187296","test_location":"githubactionspoc/src/test/java/SimpleSeleniumTest.java"}]},"hook_id":"1919ca62-3fb5-430d-8dcf-74b22ff6ccbf","test_meta":{},"isBrowserstackAutomationSession":true,"test_name":"testCases","logs":[]}
+2025-09-05T12:36:21.953Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'TestNG',
+    uuid: '5a996a58-8137-4e30-a186-3730336d3b4b',
+    name: 'testCases',
+    body: {
+      lang: 'java',
+      code: 'public void SimpleSeleniumTest.testCases()'
+    },
+    identifier: 'testCases',
+    scope: 'Default Suite.SimpleSeleniumTest',
+    scopes: [ 'Default Suite', 'SimpleSeleniumTest' ],
+    file_name: 'src/test/java/SimpleSeleniumTest.java',
+    vc_filepath: 'src/test/java/SimpleSeleniumTest.java',
+    location: 'src/test/java/SimpleSeleniumTest.java',
+    meta: {},
+    result: 'passed',
+    duration_in_ms: 5212,
+    started_at: '2025-09-05T12:36:14.222Z',
+    finished_at: '2025-09-05T12:36:19.434Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: {},
+    tags: [],
+    customRerunParam: { rerun_name: 'githubactionspoc' },
+    hooks: [ '1919ca62-3fb5-430d-8dcf-74b22ff6ccbf' ],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 3108:0
+2025-09-05T12:36:21.983Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Added the event {
+  event_type: 'HookRunStarted',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_TEST',
+    framework: 'TestNG',
+    uuid: '7103519a-5653-48c9-963e-09e01fc901fb',
+    name: 'teardown',
+    result: 'pending',
+    test_run_id: '5a996a58-8137-4e30-a186-3730336d3b4b',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.SimpleSeleniumTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'SimpleSeleniumTest' ],
+    file_name: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    vc_filepath: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    location: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    started_at: '2025-09-05T12:36:21.979Z'
+  },
+  logs: []
+} to 3108:0
+2025-09-05T12:36:22.976Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Added the event {
+  event_type: 'HookRunFinished',
+  hook_run: {
+    type: 'hook',
+    hook_type: 'AFTER_TEST',
+    framework: 'TestNG',
+    uuid: '7103519a-5653-48c9-963e-09e01fc901fb',
+    name: 'teardown',
+    result: 'passed',
+    test_run_id: '5a996a58-8137-4e30-a186-3730336d3b4b',
+    body: { lang: 'java', code: null },
+    scope: 'Default Suite.SimpleSeleniumTest',
+    custom_metadata: {},
+    tags: [],
+    scopes: [ 'Default Suite', 'SimpleSeleniumTest' ],
+    file_name: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    vc_filepath: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    location: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+    started_at: '2025-09-05T12:36:21.979Z',
+    finished_at: '2025-09-05T12:36:22.972Z'
+  },
+  logs: []
+} to 3108:0
+2025-09-05T12:36:23.306Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'TestNG',
+      uuid: '5a996a58-8137-4e30-a186-3730336d3b4b',
+      name: 'testCases',
+      body: [Object],
+      identifier: 'testCases',
+      scope: 'Default Suite.SimpleSeleniumTest',
+      scopes: [Array],
+      file_name: 'src/test/java/SimpleSeleniumTest.java',
+      vc_filepath: 'src/test/java/SimpleSeleniumTest.java',
+      location: 'src/test/java/SimpleSeleniumTest.java',
+      meta: {},
+      result: 'passed',
+      duration_in_ms: 5212,
+      started_at: '2025-09-05T12:36:14.222Z',
+      finished_at: '2025-09-05T12:36:19.434Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: {},
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [Array],
+      product_map: [Object]
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunStarted',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_TEST',
+      framework: 'TestNG',
+      uuid: '7103519a-5653-48c9-963e-09e01fc901fb',
+      name: 'teardown',
+      result: 'pending',
+      test_run_id: '5a996a58-8137-4e30-a186-3730336d3b4b',
+      body: [Object],
+      scope: 'Default Suite.SimpleSeleniumTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      vc_filepath: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      location: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      started_at: '2025-09-05T12:36:21.979Z'
+    },
+    logs: []
+  },
+  {
+    event_type: 'HookRunFinished',
+    hook_run: {
+      type: 'hook',
+      hook_type: 'AFTER_TEST',
+      framework: 'TestNG',
+      uuid: '7103519a-5653-48c9-963e-09e01fc901fb',
+      name: 'teardown',
+      result: 'passed',
+      test_run_id: '5a996a58-8137-4e30-a186-3730336d3b4b',
+      body: [Object],
+      scope: 'Default Suite.SimpleSeleniumTest',
+      custom_metadata: {},
+      tags: [],
+      scopes: [Array],
+      file_name: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      vc_filepath: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      location: 'githubactionspoc/src/test/java/SimpleSeleniumTest.java',
+      started_at: '2025-09-05T12:36:21.979Z',
+      finished_at: '2025-09-05T12:36:22.972Z'
+    },
+    logs: []
+  }
+] to 3108:0
+2025-09-05T12:36:23.307Z CLI info  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-05T12:36:23.370Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'TestNG',
+      testFrameworkVersion: '7.11.0',
+      testFrameworkState: 'LOG',
+      timestamp: '2025-09-05T12:36:23.365Z',
+      uuid: '7103519a-5653-48c9-963e-09e01fc901fb',
+      kind: 'TEST_LOG',
+      message: '"\\n===============================================\\nDefault Suite\\nTotal tests run: 1, Passes: 1, Failures: 0, Skips: 0\\n===============================================\\n"',
+      level: 'INFO',
+      test_run_uuid: '7103519a-5653-48c9-963e-09e01fc901fb'
+    }
+  ]
+} to 3108:0
+2025-09-05T12:36:23.788Z CLI info  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-05T12:36:24.282Z CLI error [testhub:module]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [collectBuildData] Exception in collecting build data for build UUID o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1: {"message":"Build data collection started"}
+2025-09-05T12:36:25.307Z CLI info [testhub:request-queue-handler]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Processing batch event [ { event_type: 'LogCreated', logs: [ [Object] ] } ] to 3108:0
+2025-09-05T12:36:25.308Z CLI info  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-09-05T12:36:25.801Z CLI info  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-09-05T12:36:26.267Z CLI info [testhub:module]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  stopBuild: o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1 request={"finished_at":"2025-09-05T12:36:23.388Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-09-05T12:36:26.270Z CLI info  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-09-05T12:36:26.272Z CLI info [TEST REPORTING AND ANALYTICS:module]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Visit https://automation.browserstack.com/builds/o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1 to view build report, insights, and many more debugging information all at one place!
+2025-09-05T12:36:26.738Z CLI info  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-09-05T12:36:27.218Z CLI info  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-09-05T12:36:27.813Z CLI info [main]  [sondosalmelegy_J97jpw]  [o3ifcuxyz1fa0ixhdgvrxdjnochh7enexvu4ssp1]  [dcf13c45-c062-4131-8e51-6ecdd5b5e45a]  Received graceful signal termination, performing cleanup
