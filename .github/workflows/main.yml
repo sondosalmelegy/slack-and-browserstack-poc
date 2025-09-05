@@ -1,4 +1,4 @@
-name: Test & Notify
+name: Notifying Browserstack and slack
 
 on:
   push:
@@ -49,11 +49,27 @@ jobs:
         BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
       run: |
           mvn clean test
+        
 
-    - name: Notify Slack via webhook
-      run: |
-        curl -X POST -H 'Content-type: application/json' \
-        --data '{"text":"✅ BrowserStack tests finished! Check results."}' \
-        ${{ secrets.SLACK_WEBHOOK_URL }}
+    - name: Run Tests on BrowserStack
+      run: mvn clean test
+      env:
+        BROWSERSTACK_USERNAME: sondosalmelegy_J97jpw
+        BROWSERSTACK_ACCESS_KEY: s9eaXLwDiuMcyTmFpJgf
+        BROWSERSTACK_BUILD_NAME: "Notifying Browserstack and slack"
+        BROWSERSTACK_PROJECT_NAME: "My First Github Actions POC"
+        CUSTOM_TAG_1: "You can set a custom Build Tag here"
+        FRAMEWORK: testng
+        TEST_OBSERVABILITY: true
+        BROWSERSTACK_AUTOMATION: false
+
+
+    - name: Notify Slack
+      uses: 8398a7/action-slack@v3
+      with:
+          status: ${{ job.status }}
+          fields: repo,message,commit,author,action,eventName,ref,workflow,job,took
+      env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
 

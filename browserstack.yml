@@ -1,9 +1,11 @@
 userName: sondosalmelegy_J97jpw
 accessKey: s9eaXLwDiuMcyTmFpJgf
-buildName: "Your static build/job name goes here"
-projectName: "Your static project name goes here"
+
+buildName: "Notifying Browserstack and slack"
+projectName: "My First Github Actions POC"
+
 CUSTOM_TAG_1: "You can set a custom Build Tag here"
-# Use CUSTOM_TAG_<N> and set more build tags as you need.
 framework: testng
 testObservability: true
-browserstackAutomation: false # Set to true for tests on BrowserStack products.
+browserstackAutomation: false
+

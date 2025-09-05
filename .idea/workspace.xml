@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de433147-d8f4-4607-80ec-b1f7d676f454" name="Changes" comment="final">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/browserstack-javaagent.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/browserstack-javaagent.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/sdk-cli.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/sdk-cli.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SimpleSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimpleSeleniumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SimpleSeleniumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SimpleSeleniumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserstack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/browserstack.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
