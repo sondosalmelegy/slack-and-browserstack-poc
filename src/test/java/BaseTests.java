@@ -16,6 +16,11 @@ public class BaseTests {
         public static void initializeDriver() {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--ignore-certificate-errors");
+            options.addArguments("--headless=new");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--remote-allow-origins=*");
+
             options.setAcceptInsecureCerts(true);
 
             driver = new ChromeDriver(options);
