@@ -7,5 +7,4 @@ projectName: "My First Github Actions POC"
 CUSTOM_TAG_1: "You can set a custom Build Tag here"
 framework: testng
 testObservability: true
-browserstackAutomation: true
 

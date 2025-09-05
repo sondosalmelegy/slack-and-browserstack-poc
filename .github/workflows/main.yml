@@ -60,8 +60,6 @@ jobs:
         BROWSERSTACK_PROJECT_NAME: "My First Github Actions POC"
         FRAMEWORK: testng
         TEST_OBSERVABILITY: true
-        BROWSERSTACK_AUTOMATION: true
-
 
     - name: Notify Slack
       uses: 8398a7/action-slack@v3
