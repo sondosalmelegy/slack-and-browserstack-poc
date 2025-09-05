@@ -14,7 +14,7 @@ public class SimpleSeleniumTest extends BaseTests {
     @BeforeTest
     public void setUp() {
         initializeDriver();
-        driver.get("https://www.booking.com/");
+        driver.get("https://www.booking.com/index.en-gb.html");
     }
 
 
@@ -26,8 +26,7 @@ public class SimpleSeleniumTest extends BaseTests {
         String text = element.getText();
         Assert.assertEquals(text,"Find your next stay","Passed Test Case!");
 
-
-
+        System.out.println(driver.getPageSource().substring(0, 2000));
         System.out.println(text);
     }
 
