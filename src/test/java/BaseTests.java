@@ -46,11 +46,9 @@ public class BaseTests {
         caps.setCapability(ChromeOptions.CAPABILITY, options);
 
 
-
-
         driver = new RemoteWebDriver(
                 new URL("https://" + USERNAME + ":" + ACCESSKEY + "@hub.browserstack.com/wd/hub"),
-                options
+                caps
         );
     }
 
