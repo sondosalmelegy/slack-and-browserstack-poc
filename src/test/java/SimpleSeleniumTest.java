@@ -7,12 +7,14 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import java.net.MalformedURLException;
+
 
 public class SimpleSeleniumTest extends BaseTests {
 
 
     @BeforeTest
-    public void setUp() {
+    public void setUp() throws MalformedURLException {
         initializeDriver();
         driver.get("https://www.booking.com/index.en-gb.html");
     }

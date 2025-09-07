@@ -2,6 +2,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -14,43 +15,37 @@ public class BaseTests {
 
     protected static WebDriver driver;
 
-    public static void initializeDriver() {
-        try {
-            String username = System.getenv("BROWSERSTACK_USERNAME");
-            String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
-            String buildName = System.getenv("BROWSERSTACK_BUILD_NAME");
-            String projectName = System.getenv("BROWSERSTACK_PROJECT_NAME");
+    // Setup للـ driver
 
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--ignore-certificate-errors");
-            options.addArguments("--disable-gpu");
-            options.addArguments("--window-size=1920,1080");
-            options.setAcceptInsecureCerts(true);
+    public static void initializeDriver() throws MalformedURLException {
+        String USERNAME = System.getenv("BROWSERSTACK_USERNAME");
+        String ACCESSKEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
+        String buildName = System.getenv("BROWSERSTACK_BUILD_NAME");
+        String projectName = System.getenv("BROWSERSTACK_PROJECT_NAME");
 
-            // BrowserStack capabilities
-            options.setCapability("os", "Windows");
-            options.setCapability("osVersion", "11");
-            options.setCapability("browserName", "Chrome");
-            options.setCapability("browserVersion", "latest");
-            options.setCapability("Notifying Browserstack and slack", buildName);
-            options.setCapability("project", projectName);
-            options.setCapability("name", "Sample Test");
+        DesiredCapabilities caps = new DesiredCapabilities();
+        caps.setCapability("browserName", "chrome");
+        caps.setCapability("browserVersion", "latest");
+        caps.setCapability("build", buildName);
+        caps.setCapability("project", projectName);
+        caps.setCapability("name", "Sample Test"); // اسم التست هيبان في الـ dashboard
 
-            driver = new RemoteWebDriver(
-                    new URL("https://" + username + ":" + accessKey + "@hub-cloud.browserstack.com/wd/hub"),
-                    options
-            );
-        } catch (MalformedURLException e) {
-            throw new RuntimeException("Invalid BrowserStack hub URL", e);
-        }
+        ChromeOptions options = new ChromeOptions();
+        options.merge(caps);
+
+        driver = new RemoteWebDriver(
+                new URL("https://" + USERNAME + ":" + ACCESSKEY + "@hub.browserstack.com/wd/hub"),
+                options
+        );
     }
 
-
+    // Explicit wait لعنصر لحد ما يبقى visible
     public WebElement waitForElement(By locator, int timeoutInSeconds) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
+    // Explicit wait لعنصر لحد ما يبقى clickable
     public WebElement waitForClickable(By locator, int timeoutInSeconds) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
         return wait.until(ExpectedConditions.elementToBeClickable(locator));

@@ -442,3 +442,27 @@
 10:36:51.713 [ApplicationImpl pooled thread 6] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/breadfast/.m2/repository/com/browserstack/browserstack-java-sdk/1.40.1/browserstack-java-sdk-1.40.1.jar
 10:36:51.713 [ApplicationImpl pooled thread 6] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
 10:36:51.713 [ApplicationImpl pooled thread 6] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+12:17:16.556 [ApplicationImpl pooled thread 52] INFO  c.b.l.BrowserStackRunExtension - testng
+12:17:16.557 [ApplicationImpl pooled thread 52] INFO  com.browserstack.utils.Helpers - true
+12:17:16.558 [ApplicationImpl pooled thread 52] INFO  com.browserstack.utils.Helpers - /Users/breadfast/.m2/repository/com/browserstack/browserstack-java-sdk/1.40.1/browserstack-java-sdk-1.40.1.jar
+12:17:16.558 [ApplicationImpl pooled thread 52] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/breadfast/.m2/repository/com/browserstack/browserstack-java-sdk/1.40.1/browserstack-java-sdk-1.40.1.jar
+12:17:16.558 [ApplicationImpl pooled thread 52] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+12:17:16.558 [ApplicationImpl pooled thread 52] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+12:22:57.774 [ApplicationImpl pooled thread 83] INFO  c.b.l.BrowserStackRunExtension - testng
+12:22:57.774 [ApplicationImpl pooled thread 83] INFO  com.browserstack.utils.Helpers - true
+12:22:57.774 [ApplicationImpl pooled thread 83] INFO  com.browserstack.utils.Helpers - /Users/breadfast/.m2/repository/com/browserstack/browserstack-java-sdk/1.40.1/browserstack-java-sdk-1.40.1.jar
+12:22:57.774 [ApplicationImpl pooled thread 83] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/breadfast/.m2/repository/com/browserstack/browserstack-java-sdk/1.40.1/browserstack-java-sdk-1.40.1.jar
+12:22:57.774 [ApplicationImpl pooled thread 83] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+12:22:57.774 [ApplicationImpl pooled thread 83] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+12:40:21.175 [ApplicationImpl pooled thread 90] INFO  c.b.l.BrowserStackRunExtension - testng
+12:40:21.175 [ApplicationImpl pooled thread 90] INFO  com.browserstack.utils.Helpers - true
+12:40:21.176 [ApplicationImpl pooled thread 90] INFO  com.browserstack.utils.Helpers - /Users/breadfast/.m2/repository/com/browserstack/browserstack-java-sdk/1.40.1/browserstack-java-sdk-1.40.1.jar
+12:40:21.176 [ApplicationImpl pooled thread 90] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/breadfast/.m2/repository/com/browserstack/browserstack-java-sdk/1.40.1/browserstack-java-sdk-1.40.1.jar
+12:40:21.176 [ApplicationImpl pooled thread 90] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+12:40:21.176 [ApplicationImpl pooled thread 90] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+12:46:53.300 [ApplicationImpl pooled thread 92] INFO  c.b.l.BrowserStackRunExtension - testng
+12:46:53.300 [ApplicationImpl pooled thread 92] INFO  com.browserstack.utils.Helpers - true
+12:46:53.301 [ApplicationImpl pooled thread 92] INFO  com.browserstack.utils.Helpers - /Users/breadfast/.m2/repository/com/browserstack/browserstack-java-sdk/1.40.1/browserstack-java-sdk-1.40.1.jar
+12:46:53.301 [ApplicationImpl pooled thread 92] INFO  c.b.l.BrowserStackRunExtension - Agent path: /Users/breadfast/.m2/repository/com/browserstack/browserstack-java-sdk/1.40.1/browserstack-java-sdk-1.40.1.jar
+12:46:53.301 [ApplicationImpl pooled thread 92] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+12:46:53.301 [ApplicationImpl pooled thread 92] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
