@@ -52,6 +52,8 @@ jobs:
         BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
         BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
         BROWSERSTACK_BUILD_NAME: ${{ secrets.BROWSERSTACK_BUILD_NAME }}
+        BROWSERSTACK_PROJECT_NAME: "POC Project"
+
         FRAMEWORK: testng
         TEST_OBSERVABILITY: true
         report-timeout: 600
