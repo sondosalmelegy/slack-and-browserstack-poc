@@ -30,23 +30,27 @@ public class BaseTests {
         options.addArguments("--window-size=1920,1080");
         options.setAcceptInsecureCerts(true);
 
-
-// If you still want DesiredCapabilities for BrowserStack:
         DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("browserName", "chrome");
-        caps.setCapability("browserVersion", "latest");
-        caps.setCapability("build", buildName);
-        caps.setCapability("project", projectName);
-        caps.setCapability("name", "Sample Test");
 
-// Merge ChromeOptions into DesiredCapabilities
+        HashMap<String, Object> browserstackOptions = new HashMap<>();
+        browserstackOptions.put("os", "OS X");
+        browserstackOptions.put("osVersion", "Ventura");
+        browserstackOptions.put("projectName", projectName);
+        browserstackOptions.put("buildName", buildName);
+        browserstackOptions.put("sessionName", "Sample Test");
+
+        caps.setCapability("browserName", "Chrome");
+        caps.setCapability("browserVersion", "latest");
+        caps.setCapability("bstack:options", browserstackOptions);
+
+// دمج الـ ChromeOptions
         caps.setCapability(ChromeOptions.CAPABILITY, options);
 
-
         driver = new RemoteWebDriver(
-                new URL("https://" + USERNAME + ":" + ACCESSKEY + "@hub.browserstack.com/wd/hub"),
+                new URL("https://" + USERNAME + ":" + ACCESSKEY + "@hub-cloud.browserstack.com/wd/hub"),
                 caps
         );
+
     }
 
     // Explicit wait لعنصر لحد ما يبقى visible
