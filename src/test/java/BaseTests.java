@@ -23,22 +23,21 @@ public class BaseTests {
 
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--ignore-certificate-errors");
-            options.addArguments("--headless=new");
-            options.addArguments("--no-sandbox");
-            options.addArguments("--disable-dev-shm-usage");
-            options.addArguments("--remote-allow-origins=*");
             options.addArguments("--disable-gpu");
             options.addArguments("--window-size=1920,1080");
             options.setAcceptInsecureCerts(true);
 
-            options.setCapability("browserName", "chrome");
+            // BrowserStack capabilities
+            options.setCapability("os", "Windows");
+            options.setCapability("osVersion", "11");
+            options.setCapability("browserName", "Chrome");
             options.setCapability("browserVersion", "latest");
-            options.setCapability("build", buildName);
+            options.setCapability("Notifying Browserstack and slack", buildName);
             options.setCapability("project", projectName);
             options.setCapability("name", "Sample Test");
 
             driver = new RemoteWebDriver(
-                    new URL("https://" + username + ":" + accessKey + "@hub.browserstack.com/wd/hub"),
+                    new URL("https://" + username + ":" + accessKey + "@hub-cloud.browserstack.com/wd/hub"),
                     options
             );
         } catch (MalformedURLException e) {
