@@ -42,16 +42,20 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
           google-chrome --version
-  
+
+    - name: Check BrowserStack config
+      run: cat browserstack.yml
+
     - name: Run Tests on BrowserStack
       run: mvn clean test
       env:
         BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
         BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
-        BROWSERSTACK_BUILD_NAME: "Notifying Browserstack and slack"
-        BROWSERSTACK_PROJECT_NAME: "My First Github Actions POC"
+        BROWSERSTACK_BUILD_NAME: ${{ secrets.BROWSERSTACK_BUILD_NAME }}
         FRAMEWORK: testng
         TEST_OBSERVABILITY: true
+        report-timeout: 600
+
 
     - name: Notify Slack
       uses: 8398a7/action-slack@v3
