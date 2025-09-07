@@ -6,21 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="de433147-d8f4-4607-80ec-b1f7d676f454" name="Changes" comment="Notifying Browserstack and slack">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/browserstack-javaagent.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/browserstack-javaagent.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/sdk-cli.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/sdk-cli.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/browserstack-plugin.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SimpleSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimpleSeleniumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SimpleSuite/SimpleTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/SimpleSuite/SimpleTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/SimpleSuite/SimpleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/SimpleSuite/SimpleTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SimpleSeleniumTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SimpleSeleniumTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SimpleSeleniumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SimpleSeleniumTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
