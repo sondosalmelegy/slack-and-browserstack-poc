@@ -24,8 +24,8 @@ public class SimpleSeleniumTest extends BaseTests {
     @Test
     public void testCases() {
 
-        WebElement pageOutline = waitForElement(By.id("b2indexPage"),40);
-        Assert.assertTrue(pageOutline.isDisplayed(), "page outline should be visible!");
+        WebElement pageOutline = waitForElement(By.id("flights"),60);
+        Assert.assertTrue(pageOutline.isDisplayed(), "Booking Opened Successfully!");
     }
 
     @AfterTest
