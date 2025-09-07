@@ -25,14 +25,11 @@ public class BaseTests {
         String projectName = System.getenv("BROWSERSTACK_PROJECT_NAME");
 
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--ignore-certificate-errors");
-        options.addArguments("--headless=new");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--remote-allow-origins=*");
-        options.addArguments("--disable-gpu");
         options.addArguments("--window-size=1920,1080");
         options.setAcceptInsecureCerts(true);
+
 
 // If you still want DesiredCapabilities for BrowserStack:
         DesiredCapabilities caps = new DesiredCapabilities();
