@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 import java.net.MalformedURLException;
@@ -16,7 +17,7 @@ public class SimpleSeleniumTest extends BaseTests {
     @BeforeTest
     public void setUp() throws MalformedURLException {
         initializeDriver();
-        driver.get("https://www.booking.com/index.en-gb.html");
+        driver.get("https://www.airbnb.com/");
     }
 
 
@@ -24,15 +25,17 @@ public class SimpleSeleniumTest extends BaseTests {
     @Test
     public void testCases() {
 
-        WebElement pageOutline = waitForElement(By.id("flights"),60);
-        Assert.assertTrue(pageOutline.isDisplayed(), "Booking Opened Successfully!");
+        WebElement airbnbLink = waitForElement(By.cssSelector("a[aria-label='Airbnb homepage']"),20);
+        Assert.assertTrue(airbnbLink.isDisplayed(), "Airbnb homepage element not displayed!");
     }
 
     @AfterTest
     public void teardown() {
-        if (driver != null) {
-            driver.quit();
-        }
+
+            if (driver != null) {
+                driver.quit();
+            }
+
     }
 }
 

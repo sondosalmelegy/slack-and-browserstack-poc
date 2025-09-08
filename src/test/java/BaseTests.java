@@ -1,3 +1,4 @@
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.By;
@@ -6,6 +7,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.annotations.BeforeMethod;
 
 import java.net.URL;
 import java.net.MalformedURLException;
@@ -17,7 +19,6 @@ public class BaseTests {
     protected static WebDriver driver;
 
     // Setup للـ driver
-
     public static void initializeDriver() throws MalformedURLException {
         String USERNAME = System.getenv("BROWSERSTACK_USERNAME");
         String ACCESSKEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
@@ -53,13 +54,11 @@ public class BaseTests {
 
     }
 
-    // Explicit wait لعنصر لحد ما يبقى visible
     public WebElement waitForElement(By locator, int timeoutInSeconds) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
-    // Explicit wait لعنصر لحد ما يبقى clickable
     public WebElement waitForClickable(By locator, int timeoutInSeconds) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeoutInSeconds));
         return wait.until(ExpectedConditions.elementToBeClickable(locator));
