@@ -1,0 +1,29 @@
+[ {
+  "duration" : 0.008500002324581146,
+  "eventName" : "sdk:pre-test",
+  "startTime" : 3.3673098918E7,
+  "success" : true,
+  "worker" : 3,
+  "failure" : null,
+  "details" : null,
+  "entryType" : "measure",
+  "platform" : 0,
+  "command" : null,
+  "testName" : null,
+  "hookType" : "",
+  "cli" : false
+}, {
+  "duration" : 0.005208000540733337,
+  "eventName" : "sdk:post-test",
+  "startTime" : 3.3682952479375E7,
+  "success" : true,
+  "worker" : 3,
+  "failure" : null,
+  "details" : null,
+  "entryType" : "measure",
+  "platform" : 0,
+  "command" : null,
+  "testName" : null,
+  "hookType" : "",
+  "cli" : false
+} ]
